@@ -1,9 +1,10 @@
 package com.wave.service;
 
-import com.wave.po.MyUser;
+import com.wave.po.User;
 
-import java.util.List;
 
 public interface UserService {
-    public List<MyUser> selectUserByUname(MyUser user);
+    public void register(User user);
+    public User selectByEmail(String email);
+    public User selectByID(Integer id);
 }

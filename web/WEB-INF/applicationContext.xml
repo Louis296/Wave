@@ -8,7 +8,7 @@
 <!--    配置数据源-->
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/springtest?serverTimezone=GMT%2B8"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/wave?serverTimezone=GMT%2B8"/>
         <property name="username" value="root"/>
         <property name="password" value="137238fh"/>
         <property name="maxTotal" value="30"/>

@@ -1,7 +1,7 @@
 package com.wave.service;
 
 import com.wave.mapper.UserMapper;
-import com.wave.po.MyUser;
+import com.wave.po.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,8 +13,21 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
+
     @Override
-    public List<MyUser> selectUserByUname(MyUser user) {
-        return userMapper.selectUserByUname(user);
+    public void register(User user) {
+        userMapper.register(user);
     }
+
+    @Override
+    public User selectByEmail(String email) {
+        return userMapper.selectByEmail(email);
+    }
+
+    @Override
+    public User selectByID(Integer id) {
+        return userMapper.selectByID(id);
+    }
+
+
 }

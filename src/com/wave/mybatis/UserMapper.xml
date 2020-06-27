@@ -3,10 +3,28 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.wave.mapper.UserMapper">
-    <select id="selectUserByUname" resultType="com.wave.po.MyUser" parameterType="com.wave.po.MyUser">
-        select * from user where 1=1
-        <if test="uname!=null and uname!=''">
-            and uname like concat('%',#{uname},'%')
-        </if>
+    <select id="register" parameterType="com.wave.po.User">
+        insert into users(user_name, user_password, user_sex, user_age, user_icon, user_email, user_date, user_describe, user_address, user_level, user_listenRecord)
+        values (#{userName},#{userPassword},#{userSex},#{userAge},#{userIcon},#{userEmail},#{userDate},#{userDescribe},#{userAddress},#{userLevel},#{userListenRecord})
+    </select>
+    <resultMap id="user" type="com.wave.po.User">
+        <id column="user_id" property="userID"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_password" property="userPassword"/>
+        <result column="user_sex" property="userSex"/>
+        <result column="user_age" property="userAge"/>
+        <result column="user_icon" property="userIcon"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="user_date" property="userDate"/>
+        <result column="user_describe" property="userDescribe"/>
+        <result column="user_address" property="userAddress"/>
+        <result column="user_level" property="userLevel"/>
+        <result column="user_listenRecord" property="userListenRecord"/>
+    </resultMap>
+    <select id="selectByEmail" parameterType="String" resultMap="user">
+        select * from users where user_email=#{userEmail}
+    </select>
+    <select id="selectByID" parameterType="Integer" resultMap="user">
+        select * from users where user_id=#{id}
     </select>
 </mapper>
