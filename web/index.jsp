@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Wave</title>
   </head>
   <body>
-  $END$
+    <a href="register.jsp">注册</a><br>
+    <a href="${pageContext.request.contextPath }/user/gologin">登录</a>
   </body>
 </html>
