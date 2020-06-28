@@ -1,0 +1,160 @@
+/*-------------------------------------  
+	Template: Tunein
+	Author : Webstrot
+	Copyright © 2019-20	
+---------------------------------------*/
+
+/**--- dark theme css -----**/
+body, html {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    overflow-x: hidden
+}
+:root {
+    --box-color: #fff;
+    --font-color: #191919;
+    --bg-color: #f9f9f9;
+    --heading-color: #191919;
+    --para-color: #707070;
+    --default-color: #191919;
+    --hover-color: #fa5b41;
+    --side-color: #fff;
+    --border-color: #e6e6e6
+}
+[data-theme=dark] {
+    --box-color: #0f0e37;
+    --font-color: #fff;
+    --bg-color: #04031d;
+    --heading-color: #fff;
+    --para-color: rgba(255, 255, 255, 0.55);
+    --border-color: rgba(255, 255, 255, 0.3);
+    --default-color: #191919;
+    --hover-color: #fa5b41;
+    --side-color: #080729
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color)
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: var(--heading-color)
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a {
+    color: var(--hover-color)
+}
+.contact_main p a{
+	color: var(--font-color)
+}
+.theme-switch-wrapper {
+    margin: 0;
+    width: auto;
+    display: inline-flex;
+    float: right;
+    padding-top: 25px
+}
+.theme-switch {
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    width: 50px
+}
+.theme-switch input {
+    display: none
+}
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s
+}
+.slider:before {
+    background-color: #fff;
+    bottom: 2px;
+    content: "";
+    height: 18px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 18px
+}
+.theme-switch-wrapper input:checked+.slider {
+    background-color: #fa5b41
+}
+.theme-switch-wrapper input:checked+.slider:before {
+    transform: translateX(23px)
+}
+.slider.round {
+    border-radius: 34px
+}
+.slider.round:before {
+    border-radius: 50%
+}
+.adonis-player-wrap .adonis-playlist, .album_list_wrapper .release_content_artist, .blog_pagination_section ul li a, .comment_heading_bottom .crm_message_dropbox_wrapper .nice-select .option.selected.focus, .contect_form_footer input, .crm_message_dropbox_wrapper .nice-select .list, .crm_message_dropbox_wrapper .nice-select .option.focus, .crm_message_dropbox_wrapper .nice-select .option:hover, .footer_wrapper, .gc_blog_cloud_side_menu li a, .lang_ms_banner .lang_list_checkbox li:hover,.m24_navi_main_wrapper, .nice-select .option.focus, .nice-select .option.selected.focus, .nice-select .option:hover, .search_form .form-control, .section2_bottom_wrapper, .ui_pricing_five_wrapper, .various_song_playlist {
+    background: var(--bg-color)
+}
+#accordion .card_pagee a, #accordion .card_pagee a.collapsed, #cssmenu ul ul li a, #sidebar #cssmenu>ul>li>a, #sidebar #toggle_close, .album_list_wrapper>ul>li, .archives_wrapper ul li a,  .archives_wrapper ul li i, .artist_list_icon .ms_tranding_more_icon i, .author_detail .author_name, .blog_pagination_section ul li a, .budge_noti i, .comment-area .nice-select .option:last-child,
+.comment_heading_bottom .crm_message_dropbox_wrapper .nice-select, .contact_main h4, .contact_section .form-control:focus, .contact_section .form-control:hover, .contect_form_footer input, .crm_mess_img_cont_wrapper h4 span, .crm_message_dropbox_wrapper ul li:first-child a, .customer-rating .rating .star-number, .customer-rating .rating .star-percent, .event_single_text_wrapper h2, .event_single_text_wrapper h4, .event_slider_wrappeer .owl-theme .owl-nav .owl-next, .event_slider_wrappeer .owl-theme .owl-nav .owl-prev,
+.featured_artist_detail p a,
+.featured_song_slider .owl-theme .owl-nav .owl-next,
+.featured_song_slider .owl-theme .owl-nav .owl-prev,
+.filter-area .nice-select,
+.gc_blog_cloud_side_menu li a,
+.gc_main_navigation a i:before, .jp-title, .jp_blog_single_client_cont h3, .lang_list_wrapper a, .lang_ms_banner .music_field_box label, .login_remember_box .forget_password, .login_top_wrapper p, .mainmenu ul li a, .partner_slider_wraper .owl-theme .owl-nav .owl-next, .partner_slider_wraper .owl-theme .owl-nav .owl-prev, .pricing_box_wrapper h1, .pricing_box_wrapper h2, .pricing_heading_wrapper h3,
+.pricing_list22 li, .quick_list_songs h1, .relaese_viewall_wrapper a, .release_box_main_content p a, .release_tabs_wrapper .nav-tabs .nav-link, .res_search_bar, .slider-area .carousel-inner .carousel-item .carousel-captions .content h1, .slider-area .carousel-inner .carousel-item .carousel-captions .content h2, .smalltext, .sv_blog_text h5 a, .top_lis_left_content .release_content_artist p a, .top_list_tract_view p, .top_song_artist_playlist .ms_tranding_more_icon i, .top_song_list_picks .ms_tranding_more_icon i:before, .treanding_song_slider .owl-theme .owl-nav .owl-next, .treanding_song_slider .owl-theme .owl-nav .owl-prev, .ui_pricing_five_btn_wrapper a, .ui_pricing_five_wrapper h3, .various_song_playlist p a {
+    color: var(--font-color)
+}
+.navi_2_dropdown li a, .navi_2_dropdown li a i:before {
+    color: var(--default-color)!important
+}
+.crm_mess_all_main_box_wrapper p a, .navi_2_dropdown li a:hover {
+    color: var(--hover-color)!important
+}
+#sidebar, #sidebar #cssmenu>ul>li>a, #sidebar #toggle_close, .album_inner_list, .album_list_wrapper, .artist_wrapper, .download_trending_track_wrapper, .stations_wrapper {
+    background: var(--side-color)
+}
+#cssmenu ul>li.has-sub>a:after, #cssmenu ul>li.has-sub>a:before {
+    background: var(--font-color)
+}
+.lang_ms_banner .modal-content {
+    background: var(--box-color)
+}
+#accordion .card_pagee a span,
+.album_list_wrapper>ul>li>a,
+.artist_wrapper_text p, .author_content p, .comments_box_rivew .author_content p,
+.comments_box_rivew .author_detail .publish_date, .description_link_wrapper li, .event_single_text_wrapper p, .event_slider_wrappeer .prs_feature_img_cont li, .event_slider_wrappeer .prs_ft_small_cont_left p, .foter_top_wrapper li a, .lang_ms_banner .m24_language_box p, .lang_ms_banner .music_field_box label span, .lest_news_cont_wrapper p, .monthly, .prs_ec_ue_right_img_cont .prs_up_pera_sec, .prs_feature_img_cont li, .prs_ft_small_cont_left p, .quick_list_songs li a, .slider-area .carousel-inner .carousel-item .carousel-captions .content p, .text-center p {
+    color: var(--para-color)
+}
+.blog_pagination_section ul li a, .contact_main, .contact_section .form-control, .contect_form_footer input, .free_music_wrapper, .gc_blog_cloud_side_menu li a, .lang_ms_banner .lang_list_checkbox li, .ms_shop_single_heading:after, .pricing_box_wrapper, .pricing_box_wrapper2, .prs_feature_img_cont ul:after, .search_form .form-control {
+    border: 1px solid var(--border-color)
+}
+.crm_mess_img_cont_wrapper h4, .pricing_box_wrapper h2 span {
+    color: var(--font-color)!important
+}
+.crm_mess_img_cont_wrapper p,
+.shop_video_wrapper .featured_artist_detail .various_artist_text a {
+    color: var(--para-color)!important
+}
+.abotus_content, .album_list_tab, .album_list_wrapper .album_list_name, .comment_heading_top, .comments_Box, .lang_ms_banner .m24_language_box, .leave_comment_heading, .playlist_songs_list, .pricing_box_wrapper h1, .pricing_heading_wrapper, .top_artist_border, .treanding_index_wrapper .treanding_song_slider {
+    border-bottom: 1px solid var(--border-color)
+}
+#accordion .card-body, #accordion .card_pagee a, #accordion .card_pagee a.collapsed, .adonis-player-wrap .adonis-player-horizontal, .blog_category_box_wrapper, .contact_main, .contact_section .form-control, .featured_artist_list, .filter-area .list-grid ul li a, .filter-area .nice-select, .filter-area .nice-select.open .list, .foter_top_wrapper, .jp_blog_single_client_main_section, .leave_comment_wrapper, .main_slider_wrapper, .pricing_box_wrapper, .pricing_box_wrapper2, .pricing_heading_wrapper, .prs_ec_ue_inner_feat_wrapper, .prs_ec_ue_right_img_wrapper, .prs_feature_img_cont, .quick_link_wrapper, .release_content_artist, .sidebar_widget, .slider_side_width:after, .stations_wrapper .various_song_playlist, .top_songs_list {
+    background: var(--box-color)
+}
+.m24_header_right_Wrapper:after,
+.m24_logo_wrapper:after {
+    background: var(--border-color)
+}
+@media (max-width:1199px) {
+    .res_search_box {
+        background: var(--bg-color)
+    }
+    .notify_para {
+        color: var(--font-color)
+    }
+}
