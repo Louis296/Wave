@@ -12,10 +12,13 @@
 </head>
 <body>
     <table>
-        <td>
-            <tr>用户名：</tr>
-            <tr>${sessionScope.user.userName}</tr>
-        </td>
+        <tr>
+            <td>用户名：</td>
+            <td>${sessionScope.user.userName}</td>
+        </tr>
+        <tr>
+            <td><img src="${sessionScope.user.userIcon}"  alt="用户头像"/></td>
+        </tr>
     </table>
 </body>
 </html>

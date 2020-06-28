@@ -11,7 +11,7 @@
     <title>登录</title>
 </head>
 <body>
-    <form action="${pageContext.request.contextPath }/user/login" method="post">
+    <form action="${pageContext.request.contextPath }/user/logincheck" method="post">
         <font color="red">${msg}</font><br>
         邮箱：<input type="text" name="userEmail"><br>
         密码：<input type="password" name="userPassword"><br>

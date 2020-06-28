@@ -1,19 +1,31 @@
 package com.wave.po;
 
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class User {
   private Integer userID;
   private String userName;
   private String userPassword;
   private String userSex;
   private Integer userAge;
-  private Byte[] userIcon;
+  private String userIcon;
   private String userEmail;
   private String userDate;
   private String userDescribe;
   private String userAddress;
   private Integer userLevel;
   private String userListenRecord;
+
+  private MultipartFile iconFile;
+
+  public MultipartFile getIconFile() {
+    return iconFile;
+  }
+
+  public void setIconFile(MultipartFile iconFile) {
+    this.iconFile = iconFile;
+  }
 
   public Integer getUserID() {
     return userID;
@@ -59,11 +71,11 @@ public class User {
   }
 
 
-  public Byte[] getUserIcon() {
+  public String getUserIcon() {
     return userIcon;
   }
 
-  public void setUserIcon(Byte[] userIcon) {
+  public void setUserIcon(String userIcon) {
     this.userIcon = userIcon;
   }
 
