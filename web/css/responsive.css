@@ -1,0 +1,1261 @@
+/*-------------------------------------  
+	Template: Tunein
+	Author : Webstrot
+	Copyright © 2019-20	
+---------------------------------------*/
+@media (max-width:1700px) {
+    .navi_searchbar_wrapper {
+        margin-left: 0
+    }
+    .m24_navi_langauage_box {
+        width: 24%
+    }
+}
+@media (max-width:1650px) {
+    .m24_header_right_Wrapper:after {
+        left: 8px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content {
+        padding-left: 100px
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
+        padding-left: 0
+    }
+    .index4_top_songs_wrapper .top_list_tract_time p {
+        display: none
+    }
+}
+@media (max-width:1570px) {
+    .mainmenu ul li a {
+        padding: 23px 12px
+    }
+    .navi_searchbar_wrapper {
+        width: 44%
+    }
+    .m24_navi_langauage_box {
+        width: 28%
+    }
+    .m24_header_right_Wrapper:after {
+        display: none
+    }
+    .crm_message_dropbox_wrapper {
+        padding: 0
+    }
+}
+@media (max-width:1550px) {
+    .fixed_reatured_Artist,
+    .fixed_top_songs {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        flex: 100%
+    }
+    .index4_top_songs_wrapper .top_list_tract_time p {
+        display: block
+    }
+    .index4_pricing_plans .index3_pricing_box h2 {
+        font-size: 40px
+    }
+    .index4_pricing_plans .index3_pricing_box .monthly {
+        left: auto;
+        right: 0
+    }
+    .body_main_header .m24_navigation_wrapper {
+        width: 60%
+    }
+    .index4_main_header .m24_header_right_Wrapper {
+        width: 40%
+    }
+}
+@media (max-width:1500px) {
+    .content_img_wrapper {
+        right: -260px
+    }
+    .add_banner_img_wrapper2 img {
+        width: 100%
+    }
+    .index4_pricing_plans .pricing_box_wrapper h1 {
+        font-size: 22px
+    }
+    .footer_top_wrapper2 li {
+        margin: 0 10px
+    }
+}
+@media (max-width:1400px) {
+    .login_top_wrapper p {
+        display: none
+    }
+    .m24_navi_main_wrapper {
+        padding: 5px 0 0 0
+    }
+    .m24_header_right_Wrapper {
+        width: 10%
+    }
+    .m24_navigation_wrapper {
+        width: 75%
+    }
+    .slider_headphone {
+        left: 0
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content {
+        left: 100px
+    }
+    .os_frame_tt_toggle_third {
+        left: 73%
+    }
+    .swiper-button-next {
+        left: 50%
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 97px
+    }
+    .jp_adoins_wrapper,
+    .jp_current_time_wrapepr {
+        padding-right: 20px
+    }
+    .os_frame_tt_toggle_second .os_frame_tooltip_wrapper {
+        top: 30px;
+        right: -102px
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
+        left: 0
+    }
+}
+@media (max-width:1350px) {
+    .jp_adoins_wrapper,
+    .jp_current_time_wrapepr {
+        padding-right: 10px
+    }
+}
+@media (max-width:1300px) {
+    .index4_playlist_wrap .off-canvas-right {
+        visibility: hidden;
+        opacity: 0;
+        transform: translate(320px, 0)!important
+    }
+    .index4_playlist_wrap .off-canvas-right.show {
+        transform: translate(-320px, 0)!important;
+        visibility: visible;
+        opacity: 1;
+        background: #71022c
+    }
+    .index4_playlist_wrap #adonis-playlist .icon-3x {
+        display: block
+    }
+    .body_main_header {
+        padding-right: 15px
+    }
+}
+@media (max-width:1255px) {
+    .mainmenu ul li a {
+        padding: 24px 7px
+    }
+    .m24_navi_langauage_box {
+        width: 30%
+    }
+}
+@media (max-width:1230px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 112px
+    }
+    .swiper-button-next {
+        left: 64%
+    }
+    .download_mockup_design {
+        left: -110px
+    }
+    .adonis-player {
+        padding: 20px 10px 15px 10px
+    }
+    .jp_adoins_wrapper,
+    .jp_current_time_wrapepr {
+        padding-right: 12px
+    }
+}
+@media (max-width:1199px) and (min-width:991px) {
+    .main_nav_ul {
+        display: none
+    }
+    .m24_logo_wrapper {
+        width: 22%
+    }
+    .m24_navigation_wrapper {
+        width: 78%
+    }
+    .navi_searchbar_wrapper {
+        width: 69%;
+        float: left
+    }
+    .login_top_wrapper p {
+        display: block
+    }
+    .m24_signin_wrapper {
+        padding: 15px 0
+    }
+    .search_bar {
+        width: 4%
+    }
+    .search_bar {
+        right: 0;
+        top: 2px;
+        left: -4px
+    }
+    .mainmenu ul li:hover>.mega-menu,
+    .mainmenu ul li:hover>ul {
+        top: 75%
+    }
+    .res_search_box {
+        top: 70px
+    }
+    .m24_navi_langauage_box {
+        width: auto;
+        padding-right: 5px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content h1,
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content h2 {
+        font-size: 54px;
+        margin-bottom: 15px
+    }
+    .m24_navi_main_wrapper {
+        height: 82px
+    }
+    .slider_side_width:after {
+        display: none
+    }
+    .slider_headphone {
+        left: -44px
+    }
+    ul.tranding_more_option {
+        top: -11px
+    }
+    .release_box_main_content img {
+        width: 100%
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 150px
+    }
+    .top_songs_list_left {
+        width: 60%
+    }
+    .top_songs_list_right {
+        width: 40%
+    }
+    .swiper-button-next {
+        left: 73%
+    }
+    .adonis-player {
+        padding: 20px 25px 15px 25px
+    }
+    .various_artist_text a {
+        padding-right: 0
+    }
+    .partner_slider_wraper .owl-theme .owl-nav .owl-prev {
+        left: 0
+    }
+    .partner_slider_wraper .owl-theme .owl-nav .owl-next {
+        right: 0
+    }
+    .album_list_wrapper {
+        width: 120%
+    }
+    .album_list_wrapper2 {
+        overflow-y: hidden;
+        overflow-x: scroll
+    }
+    .detail_icon_lists li {
+        margin-bottom: 5px
+    }
+    .shop_sidebar {
+        padding-left: 15px
+    }
+    .shop_video_wrapper .featured_artist_detail {
+        width: 100%
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+    .shop_playlist_link {
+        display: none
+    }
+    .shop_rating_section {
+        float: left;
+        top: -30px;
+        padding-bottom: 0
+    }
+    .shop_list_img_wrapper .shop_featured_artist {
+        width: auto
+    }
+    .shop_list_img_wrapper .shop_rating_section {
+        top: 0;
+        padding-left: 0
+    }
+    .playlist_wrapper span {
+        width: 100%;
+        height: 210px
+    }
+    .free_music_wrapper .top_lis_left_content .release_content_artist {
+        padding-left: 6px
+    }
+    .free_music_wrapper .top_list_tract_view a {
+        margin-left: 15px
+    }
+    span.ovrly_text2 {
+        display: none
+    }
+    .pricing_five_list_wrapper ul {
+        padding: 0 10px 0 10px
+    }
+    .pricing_five_list_wrapper li {
+        font-size: 16px
+    }
+    .ms_acc_ovrview_list {
+        width: 60%
+    }
+    .index2_search_bar .res_search_bar i {
+        color: #fff
+    }
+    .index2_search_bar .budge_noti i,
+    .index2_search_bar .lang_list_wrapper a,
+    .index2_search_bar .login_top_wrapper p {
+        color: #191919!important
+    }
+	.index4_search_bar{
+		top: -57px;
+		left: 31px;
+	}
+}
+@media (max-width:1199px) {
+    .l-sidebar {
+        width: 0
+    }
+    .body_main_header {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px
+    }
+    .body_main_header .m24_logo_wrapper {
+        display: block;
+        padding-top: 24px;
+        padding-left: 10px
+    }
+    .index4_search_bar .res_search_box {
+        background: #8d0e42
+    }
+    .body_main_header .m24_navigation_wrapper {
+        width: 73%
+    }
+    .index4_body_wrapper #sidebar {
+        z-index: 10
+    }
+    .l-sidebar {
+        background: #780131
+    }
+    .body_main_header #cssmenu {
+        padding-top: 12px
+    }
+    .sidebar-is-expanded .l2_sidebar {
+        width: 250px!important
+    }
+}
+@media (max-width:1045px) {
+    .navi_searchbar_wrapper {
+        width: 65%
+    }
+}
+@media (max-width:991px) {
+    .house_toggle .menubar {
+        fill: #fff
+    }
+    .inner_toggle .menubar {
+        fill: #00aaef
+    }
+    .cd-dropdown {
+        width: 350px
+    }
+    .cd-dropdown-wrapper {
+        padding-top: 16px;
+        margin-right: -20px
+    }
+    .login_top_wrapper p {
+        display: block
+    }
+    .m24_signin_wrapper {
+        padding: 15px 0
+    }
+    .m24_logo_wrapper {
+        width: 25%
+    }
+    .m24_navigation_wrapper {
+        width: 70%
+    }
+    .navi_searchbar_wrapper {
+        width: 87%
+    }
+    .m24_navi_main_wrapper {
+        padding: 5px 0 17px 0
+    }
+    .content_img_wrapper,
+    .slider_side_width:after {
+        display: none
+    }
+    .release_tabs_wrapper {
+        float: right
+    }
+    .error_wrapper img,
+    .index2_footer_content .contect_form_footer input,
+    .release_box_main_content img {
+        width: 100%
+    }
+    .song_heading_wrapper {
+        padding-bottom: 50px
+    }
+    .concert_video_wrapper,
+    .concert_wrapper_slider {
+        width: 100%
+    }
+    .concert_video_wrapper {
+        text-align: center;
+        padding: 50px 0 70px 0;
+        top: 0;
+        float: left;
+        width: 100%
+    }
+    .download_mockup_design {
+        position: relative;
+        top: 0;
+        left: 0
+    }
+    .concert_content_wrap {
+        float: none;
+        display: inline-block;
+        padding-left: 0
+    }
+    .pricing_box_wrapper {
+        margin-top: 50px
+    }
+    .concert_video_wrapper .test-popup-link {
+        float: none;
+        display: inline-block;
+        margin-bottom: 20px
+    }
+    .pricing_plan_wrapper,
+    .shop_responsive {
+        padding-top: 30px
+    }
+    .add_banner_img_wrapper img {
+        width: 100%
+    }
+    .footer_contact_wrapper {
+        padding-top: 40px
+    }
+    .foter_top_wrapper li {
+        margin: 0 10px
+    }
+    .release_box_main_content p a {
+        padding-right: 0
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 180px
+    }
+    .swiper-button-next {
+        left: 45%
+    }
+    .monthly {
+        float: left;
+        left: 58%
+    }
+    .footer_blog_wrapper {
+        padding-left: 0
+    }
+    .album_list_wrapper2 {
+        overflow-y: hidden;
+        overflow-x: scroll
+    }
+    .album_list_wrapper {
+        width: 120%
+    }
+    .blog_responsive,
+    .prs_es_about_main_section_wrapper2 {
+        padding-bottom: 40px
+    }
+    .detail_icon_lists li {
+        margin-bottom: 5px
+    }
+    .blog_single_wrapper {
+        padding-bottom: 30px
+    }
+    .shop_sidebar {
+        padding-left: 15px
+    }
+    .shop_video_wrapper .featured_artist_detail {
+        width: 100%
+    }
+    .shop_playlist_link {
+        display: none
+    }
+    .shop_rating_section {
+        float: left;
+        top: -30px;
+        padding-bottom: 0
+    }
+    .shop_list_img_wrapper .shop_featured_artist {
+        width: auto
+    }
+    .shop_list_img_wrapper .shop_rating_section {
+        top: 0;
+        padding-left: 0
+    }
+    .contact_rotate:after,
+    .contact_rotate:before {
+        display: none
+    }
+    .contact_main p {
+        padding: 20px
+    }
+    .contact_rotate i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px
+    }
+    .playlist_wrapper span {
+        width: 100%;
+        height: 300px;
+        line-height: 300px
+    }
+    .release_tabs_wrapper .nav-tabs .nav-link {
+        padding: 10px 8px
+    }
+    .pricing_box_wrapper2 {
+        margin-bottom: 40px
+    }
+    .pricing_overview {
+        width: 100%;
+        margin: 0
+    }
+    .ms_acc_ovrview_list {
+        width: 80%
+    }
+    .pricing_five_list_wrapper {
+        padding: 0 10px 0 10px
+    }
+    .pricing_five_list_wrapper li {
+        font-size: 16px
+    }
+    .prs_ec_ue_left_img_wrapper,
+    .prs_ec_ue_left_img_wrapper img,
+    .prs_ec_ue_right_img_wrapper {
+        width: 100%;
+        border-radius: 10px;
+        min-height: auto
+    }
+    .event_single_text_wrapper {
+        margin-bottom: 40px
+    }
+    .index2_search_bar .res_search_bar i {
+        color: #fff
+    }
+    .index2_search_bar .res_search_bar i {
+        color: #fff
+    }
+    .index2_search_bar .budge_noti i,
+    .index2_search_bar .lang_list_wrapper a,
+    .index2_search_bar .login_top_wrapper p {
+        color: #191919!important
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 {
+        font-size: 60px
+    }
+    .slider2_about_img {
+        left: 0
+    }
+    .video_mockup {
+        text-align: center
+    }
+    .live_video_wrapper .concert_video_wrapper {
+        top: 40px
+    }
+    .index2_footer_content .abotus_content p {
+        font-size: 15px
+    }
+    .index2_footer_content:after {
+        right: -15px;
+        height: 130px
+    }
+    .body_main_header .m24_navigation_wrapper {
+        width: 70%
+    }
+    .index4_concert_wrapper {
+        margin-top: 20px
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+    .index4_concert_wrapper .test-popup-link {
+        float: none;
+        display: inline-block
+    }
+    .index4_concert_wrapper .concert_content_wrap {
+        width: 100%;
+        float: none;
+        display: block
+    }
+    .index4_concert_video_Wrapper {
+        padding: 75px 0;
+        padding-bottom: 90px
+    }
+    .index4_pricing_plans .index3_pricing_box .monthly {
+        float: inherit;
+        right: -83px
+    }
+    .index4_main_header .navi_searchbar_wrapper {
+        width: 92%
+    }
+    .m24_navi_langauage_box {
+        width: auto;
+        padding-right: 0
+    }
+    ..res_search_box {
+        margin-top: 12px
+    }
+}
+@media (max-width:850px) {
+    .jp_repeat_responsive .icon-3x,
+    .jp_shuffle_responsive .icon-2x {
+        display: none
+    }
+}
+@media (max-width:767px) {
+    .comboTreeArrowBtn i {
+        display: none
+    }
+    .m24_logo_wrapper {
+        width: 30%
+    }
+    .m24_navigation_wrapper {
+        width: 65%
+    }
+    .release_box_overlay .tranding_play_icon {
+        top: 58%
+    }  
+    .various_artist_text a {
+        padding-right: 0
+    }
+    .top_songs_list_left {
+        width: 70%
+    }
+    .top_songs_list_right {
+        width: 30%
+    }
+    .prs_ec_ue_right_img_wrapper {
+        padding: 22px
+    }
+    .top_list_tract_view {
+        padding-left: 20px
+    }
+    .top_song_list_picks .ms_tranding_more_icon {
+        right: 0
+    }
+    .swiper-button-next {
+        left: 59%
+    }
+    .download_mockup_design img {
+        width: 100%
+    }
+    .more_playlist_wrapper h1 {
+        line-height: 24px
+    }
+    .foter_top_wrapper li {
+        margin-bottom: 10px
+    }
+    .aboutus_social_icons,
+    .jp_repeat_responsive .icon-3x,
+    .jp_shuffle_responsive .icon-2x {
+        display: none
+    }
+    .adonis-player-wrap .player-controls a {
+        padding: 5px
+    }
+    .control-primary,
+    .player-controls {
+        padding: 0
+    }
+    .des_option_wrapper .ms_tranding_more_icon {
+        right: 0
+    }
+    .adonis-player {
+        padding: 20px 22px 15px 20px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content {
+        padding-right: 30px
+    }
+    .adonis-player-wrap .adonis-playlist {
+        width: 540px
+    }
+    .des {
+        display: none
+    }
+    .des_option_wrapper ul.tranding_more_option {
+        right: 15px
+    }
+    .des_option_wrapper .ms_tranding_more_icon {
+        right: 40px
+    }
+    .control-primary {
+        padding-top: 10px
+    }
+    .footer_blog_wrapper {
+        padding-top: 30px
+    }
+    .artist_wrapper_content img {
+        width: 100%
+    }
+    .artist_wrapper_content .artist_wrapper_text {
+        padding-left: 0;
+        width: 100%;
+        padding-top: 20px
+    }
+    .album_list_wrapper>ul>li {
+        width: 10%
+    }
+    .song_title_width {
+        width: 35%!important
+    }
+    .album_list_wrapper2 {
+        overflow-y: hidden;
+        overflow-x: scroll
+    }
+    .album_list_wrapper {
+        width: 120%
+    }
+    .filter-area .showpro {
+        float: left;
+        width: 100%
+    }
+    .filter-area .list-grid {
+        float: right
+    }
+    .shop_list_img_wrapper img {
+        width: 100%!important
+    }
+    .shop_list_img_wrapper .shop_featured_artist {
+        width: 100%
+    }
+    .shop_list_img_wrapper .shop_rating_section {
+        padding-left: 25px;
+        top: -35px
+    }
+    .album_list_wrapper_shop ul>li {
+        width: 7%
+    }
+    .contact_main {
+        margin-bottom: 30px
+    }
+    .contact_icon_section {
+        padding-bottom: 40px
+    }
+    .release_tabs_wrapper {
+        float: left
+    }
+    .favourit_album_list .album_list_wrapper {
+        width: 150%
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 {
+        font-size: 46px;
+        line-height: 52px
+    }
+    .index2_footer_content:after {
+        display: none
+    }
+    .index2_footer_content {
+        padding-top: 20px
+    }
+    .body_main_header .m24_navigation_wrapper {
+        width: 65%
+    }
+    .index4_main_header .navi_searchbar_wrapper {
+        width: 96%
+    }
+    .navi_searchbar_wrapper {
+        width: 80%
+    }
+	.index4_search_bar{
+		right:-22px;
+	}
+	.album_list_wrapper2{
+		width:100%;
+	}
+}
+@media (max-width:650px) {
+    .adonis-player-wrap .jp-volume-controls .jp-volume-bar {
+        width: 50px
+    }
+    .favourit_album_list .album_list_wrapper>ul>li {
+        font-size: 14px
+    }
+}
+@media (max-width:580px) {
+    .m24_navigation_wrapper {
+        padding: 0;
+        width: 100%
+    }
+    .m24_logo_wrapper {
+        width: 77%
+    }
+    .m24_logo_wrapper:after {
+        display: none
+    }
+    .m24_navi_main_wrapper {
+        padding: 0
+    }
+    .navi_searchbar_wrapper {
+        width: 100%
+    }
+    .search_bar {
+        position: absolute;
+        right: 16px;
+        top: -31px;
+        padding: 0
+    }
+    .navi_searchbar_wrapper {
+        padding-top: 15px
+    }
+    .m24_navi_main_wrapper {
+        padding-bottom: 20px
+    }
+    .slider_headphone {
+        display: none
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content {
+        padding-left: 0;
+        padding-right: 0;
+        left: 0
+    }
+    .swiper-button-next {
+        left: 71%
+    }
+    .more_playlist_wrapper h1,
+    .more_playlist_wrapper h1 a {
+        font-size: 16px
+    }
+    .adonis-player {
+        padding: 15px 25px 12px 20px
+    }
+    .partner_slider_wraper .owl-theme .owl-nav .owl-prev {
+        left: 0
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+    .partner_slider_wraper .owl-theme .owl-nav .owl-next {
+        right: 0
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content {
+        padding: 80px 0
+    }
+    .release_tabs_wrapper .nav-tabs .nav-link {
+        padding: 10px 8px
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 340px
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 104px
+    }
+    .playlist-player-control .jp-play {
+        padding: 0 12px
+    }
+    .adonis-icon.icon-3x svg {
+        width: 18px
+    }
+    .adonis-player-wrap .jp-progress.jp-progress-pos-top,
+    .adonis-playlist-player .jp-progress.jp-progress-pos-top {
+        top: -83px
+    }
+    .section2_bottom_wrapper {
+        margin-bottom: 76px
+    }
+    .album_list_tab .nav-tabs .nav-link {
+        padding: 12px 15px
+    }
+    .jp_blog_single_client_cont {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px
+    }
+    .album_list_wrapper_shop ul>li {
+        font-size: 14px
+    }
+    .ms_acc_ovrview_list ul li span {
+        float: none;
+        font-size: 16px
+    }
+    .slider_treanding_stop {
+        display: none
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-indicators {
+        bottom: 65px
+    }
+    .index2_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
+        padding-bottom: 100px
+    }
+    .slider2_about_img {
+        margin-bottom: 30px
+    }
+    .index2_main_header .m24_logo_wrapper {
+        width: 90%
+    }
+    .video_mockup img {
+        width: 100%
+    }
+    .body_main_header .m24_logo_wrapper {
+        width: 10%
+    }
+    .body_main_header .m24_navigation_wrapper {
+        width: 83%
+    }
+    .index4_search_bar .res_search_box {
+        top: 50px
+    }
+    .index4_search_bar {
+        right: -18px;
+        top: 31px
+    }
+    .m24_navi_langauage_box {
+        position: absolute;
+		right: 47px;
+		top: -56px;
+    }
+    #toggle {
+        padding-top: 12px
+    }
+}
+@media (max-width:565px) {
+    .adonis-player-wrap .player-controls .jp_repeat_responsive {
+        display: none!important
+    }
+    .adonis-icon.icon-5x svg {
+        width: 26px
+    }
+    .jp_progress2 {
+        width: 65%!important
+    }
+}
+@media (max-width:480px) {
+    .m24_logo_wrapper {
+        width: 76%
+    }
+    .crm_message_dropbox_wrapper .nice-select .list {
+        left: -133px;
+        right: auto
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 280px
+    }
+    .swiper-pagination-current {
+        font-size: 24px
+    }
+    .blog_img_content img {
+        width: 100%!important
+    }
+    .blog_content_box {
+        width: 100%
+    }
+    .des_option_wrapper ul.tranding_more_option {
+        right: -27px;
+        top: -200px
+    }
+    .adonis-player-wrap .jp-volume-controls {
+        display: none
+    }
+    .adonis-player-wrap .player-controls .jp_shuffle_responsive {
+        display: none!important
+    }
+    .resp {
+        padding: 0
+    }
+    .adonis-player-wrap .adonis-playlist .adonis-player .song-poster img {
+        width: 100px
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+    .playlist-player-control .jp-play {
+        padding: 0 5px
+    }
+    .jp_progress2 {
+        width: 56%!important
+    }
+    .artist_list_icon {
+        display: none
+    }
+    .album_list_wrapper {
+        width: 150%
+    }
+    .comments_Box .text_wrapper {
+        padding-left: 0;
+        padding-top: 20px;
+        width: 100%
+    }
+    .filter-area .nice-select {
+        width: 100%
+    }
+    .ms_acc_ovrview_list {
+        width: 90%
+    }
+    .filter-area .list-grid {
+        float: left;
+        margin-top: 10px
+    }
+    .favourit_album_list .album_list_wrapper {
+        width: 200%
+    }
+    .free_music_wrapper .top_lis_left_content .release_content_artist {
+        padding-left: 6px
+    }
+    .upcoming_event_wrapper h3 {
+        font-size: 30px
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+	.m24_navi_langauage_box{
+		right:38px;
+	}
+    .body_main_header .m24_navigation_wrapper {
+        width: 100%
+    }
+	.index4_body_wrapper .body_main_header .m24_navigation_wrapper {
+		width: 83%; padding-left:20px;
+	}
+}
+@media (max-width:440px) {
+    .music_field_box label {
+        font-size: 14px
+    }
+    .lang_list_checkbox li {
+        padding-left: 20px;
+        padding-right: 0
+    }
+    .music_field_box input[type=checkbox]+label:before {
+        padding-right: 6px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content h1 {
+        font-size: 50px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content h2 {
+        font-size: 60px;
+        margin-bottom: 15px
+    }
+    .ms_heading_wrapper h1 {
+        font-size: 24px
+    }
+    .os_frame_tt_toggle_first,
+    .os_frame_tt_toggle_second,
+    .os_frame_tt_toggle_third {
+        display: none
+    }
+    .player-controls {
+        position: relative;
+        left: 20px
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+    .swiper-button-next {
+        left: 148px
+    }
+    .swiper-button-prev {
+        left: -125px
+    }
+    .des_option_wrapper .ms_tranding_more_icon {
+        right: 30px
+    }
+    .jp_adoins_wrapper {
+        padding-right: 0
+    }
+    .album_list_tab .nav-tabs .nav-link {
+        padding: 12px 8px
+    }
+    .album_list_wrapper {
+        width: 200%
+    }
+    .detail_icon_lists li {
+        width: 100px;
+        height: 110px
+    }
+    .m24_logo_wrapper {
+        width: 73%
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+}
+@media (max-width:380px) {
+    .m24_logo_wrapper {
+        width: 69%
+    }
+    .crm_message_dropbox_wrapper .nice-select .list {
+        left: -90px;
+        right: auto;
+        width: 250px
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 245px
+    }
+    .top_list_tract_view p {
+        display: none
+    }
+    .top_songs_list_left {
+        width: 90%
+    }
+    .top_songs_list_right {
+        width: 10%
+    }
+    .featured_artist_list img {
+        width: 100%!important
+    }
+    .featured_artist_detail {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px
+    }
+    .featured_list_dropdown {
+        position: relative;
+        top: -65px
+    }
+    .concert_content_wrap h1,
+    .download_app_store h1 {
+        font-size: 40px
+    }
+    .concert_content_wrap p {
+        font-size: 18px;
+        line-height: 24px
+    }
+    .monthly {
+        left: 67%
+    }
+    .foter_top_wrapper li {
+        margin: 0 8px
+    }
+    .slider-area .carousel-inner .carousel-item .carousel-captions .content h2 {
+        font-size: 50px
+    }
+    .adonis-player-wrap .song-poster img {
+        width: 50px
+    }
+    .des_option_wrapper ul.tranding_more_option {
+        right: -90px;
+        width: 150px
+    }
+    .des_option_wrapper .ms_tranding_more_icon {
+        right: 20px
+    }
+    .adonis-player-wrap .adonis-playlist .adonis-player .playlist-player-control {
+        padding: 0
+    }
+    .player-controls {
+        position: relative;
+        left: 20px
+    }
+    .lang_apply_btn_wrapper {
+        padding: 30px 15px
+    }
+    .login_remember_box .forget_password {
+        float: left
+    }
+    .top_song_artist_wrapper .top_song_artist_contnt h1 {
+        font-size: 16px
+    }
+    .top_song_artist_wrapper .top_song_artist_contnt {
+        padding-top: 0
+    }
+    .adonis-player-wrap .jp-progress.jp-progress-pos-top,
+    .adonis-playlist-player .jp-progress.jp-progress-pos-top {
+        top: -78px
+    }
+    .cancel_wrapper a {
+        margin-left: 10px
+    }
+    .indx_title_left_wrapper h2 {
+        font-size: 36px
+    }
+    .shop_rating_section {
+        top: -20px
+    }
+    .shop_list_img_wrapper .shop_rating_section {
+        top: -10px
+    }
+    .index2_main_header .m24_logo_wrapper {
+        width: 88%
+    }
+    .free_music_wrapper .top_list_tract_view a {
+        display: none
+    }
+    .free_music_wrapper .top_songs_list_left {
+        width: 80%
+    }
+    .free_music_wrapper .top_songs_list_right {
+        width: 20%
+    }
+    .free_music_wrapper .top_lis_left_content .release_content_artist {
+        padding-left: 15px
+    }
+	.album_list_wrapper2{
+		width:100%;
+	}
+}
+@media (max-width:320px) {
+    .relaese_viewall_wrapper {
+        display: none
+    }
+    .release_box_main_content:hover .release_content_artist {
+        bottom: 220px
+    }
+    .top_list_tract_time {
+        display: none
+    }
+    #clockdiv>div {
+        margin-right: 0
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+    .swiper-button-next {
+        left: 148px
+    }
+    .swiper-button-prev {
+        left: -125px
+    }
+    .adonis-player-wrap .player-controls a {
+        padding: 4px
+    }
+    .des_option_wrapper .ms_tranding_more_icon {
+        right: 10px
+    }
+    .adonis-player-wrap .jp-progress.jp-progress-pos-top,
+    .adonis-playlist-player .jp-progress.jp-progress-pos-top {
+        top: -77px
+    }
+    .jp_progress2 {
+        width: 45%!important
+    }
+    .m24_logo_wrapper {
+        width: 67%
+    }
+}
