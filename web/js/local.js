@@ -5,6 +5,8 @@ a.onclick=function(){
 	if(b&&c){
 		window.location.href="pricing_plan.html";
 	}else{
+
 		window.location.href="login.jsp";
+
 	}
 }
