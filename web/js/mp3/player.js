@@ -1,7 +1,17 @@
 var adonisPlaylist, currentPlaylistId, adonisPlayer = {}, adonisAllPlaylists = [],
     adonisPlayerID = "adonis_jplayer_main", adonisPlayerContainer = "adonis_jp_container";
 jQuery(document).ready(function (a) {
+    $.get(
+        'http://localhost/Wave_war_exploded/song/defaultsonglist',
+        function(data,status) {
+            // alert(data);
+            // console.log(data);
+            adonisAllPlaylists[0] = data;
+        },'json'
+    );
     "use strict";
+
+     $.get("");
     adonisPlayer.init = function () {
         function t(a) {
             var t = /{(.*?\})/, e = a.replace(t, ""), s = a.match(t, "");
@@ -13,10 +23,10 @@ jQuery(document).ready(function (a) {
             jPlayer: "#" + adonisPlayerID,
             cssSelectorAncestor: "#" + adonisPlayerContainer
         }, [{
-            title: "Cro Magnon Man",
-            artist: "The Stark Palace 2{#link2}",
-            mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-            poster: "./js/mp3/browse/browse-overview-4.jpg"
+            title: "Flower Shower",
+            artist: "Kim HyunA{#link2}",
+            mp3: "./js/mp3/Flower Shower.mp3",
+            poster: "./js/mp3/browse/flower_shower.jpg"
         }], {
             playlistOptions: {enableRemoveControls: !0},
             swfPath: "/js",
@@ -122,51 +132,16 @@ jQuery(document).ready(function (a) {
                 adonisPlaylist.add(a)
             })
         }
-    }, adonisAllPlaylists[0] = [{
-        title: "Gimme Some Courage",
-        artist: "Gunnar Olsen{#link7}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/playlist-3.jpg"
-    }, {
-        title: "Detour Some",
-        artist: "Gunnar Olsen{#link6}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/browse-overview-4.jpg"
-    }, {
-        title: "Do It Right",
-        artist: "Jingle Punks{#link5}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/browse-overview-1.jpg"
-    }, {
-        title: "You're A Mean",
-        artist: "The Stark Palace{#link4}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/playlist-6.jpg"
-    }, {
-        title: "may i right",
-        artist: "Gunnar Olsen{#link3}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/browse-overview-6.jpg"
-    }, {
-        title: "old man song",
-        artist: "Ava Cornish{#link2}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/browse-overview-5.jpg"
-    }, {
-        title: "bin tere sanam",
-        artist: "Walking Promises{#link1}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/playlist-5.jpg"
-    }], adonisAllPlaylists[1] = [{
+    }, adonisAllPlaylists[1] = [{
         title: "Cro Magnon Man",
         artist: "The Stark Palace 2{#link7}",
         mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
         poster: "./js/mp3/browse/browse-overview-4.jpg"
     }, {
-        title: "Gimme Some Courage",
-        artist: "The Stark Palace 3{#link9}",
-        mp3: "./js/mp3/Post Malone - Rockstar ft. 21 Savage (1).mp3",
-        poster: "./js/mp3/browse/browse-overview-4.jpg"
+        title: "Flower Shower",
+        artist: "Kim HyunA{#link9}",
+        mp3: "./js/mp3/Flower Shower.mp3",
+        poster: "./js/mp3/browse/flower_shower.jpg"
     }, {
         title: "You're A Mean One, Mr. Grinch",
         artist: "The Stark Palace{#link8}",

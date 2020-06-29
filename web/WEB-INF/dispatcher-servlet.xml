@@ -9,6 +9,22 @@
        https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <mvc:annotation-driven />
     <context:component-scan base-package="com.wave.controller"/>
+<!--    解决返回字符串中文乱码问题-->
+    <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>text/html;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+<!--    返回JSON数据时要配置的bean-->
+    <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
 <!--    配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <!--        前缀-->
@@ -21,6 +37,5 @@
           p:defaultEncoding="UTF-8" p:maxUploadSize="5400000" p:uploadTempDir="uploadfiles/temp">
     </bean>
     <!--    配置静态资源-->
-
     <mvc:default-servlet-handler />
 </beans>

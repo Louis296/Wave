@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wave.mapper.SongListMapper">
+    <resultMap id="songlistmap" type="com.wave.po.SongList">
+        <id column="id" property="listID"/>
+        <result column="list_name" property="listName"/>
+        <result column="song_id" property="songID"/>
+        <result column="type_id" property="listType"/>
+        <result column="user_id" property="userID"/>
+    </resultMap>
+    <select id="selectDefaultSongListById" parameterType="Integer" resultMap="songlistmap">
+        select * from songlist where user_id=#{id} and list_name='default';
+    </select>
+
+</mapper>

@@ -8,5 +8,7 @@
     </settings>
     <mappers>
         <mapper resource="com/wave/mybatis/UserMapper.xml"/>
+        <mapper resource="com/wave/mybatis/SongListMapper.xml"/>
+        <mapper resource="com/wave/mybatis/SongMapper.xml"/>
     </mappers>
 </configuration>

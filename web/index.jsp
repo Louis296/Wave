@@ -73,7 +73,7 @@ Author:Webstrot
                 </li>
                 <li class='has-sub'><a href='#'><i class="flaticon-playlist-3"></i>browse music</a>
                     <ul>
-                        <li><a href="add_playlist.html"><i class="flaticon-music"></i>add playlist</a></li>
+                        <li><a href="add_playlist.jsp"><i class="flaticon-music"></i>add playlist</a></li>
                         <li><a href="free_music.html"><i class="flaticon-music-1"></i>free music</a></li>
                         <li><a href="genres.html"><i class="flaticon-files-and-folders"></i>genres</a></li>
                         <li><a href="genres_single.html"><i class="flaticon-smartphone"></i>genres single</a></li>
@@ -211,7 +211,7 @@ Author:Webstrot
                                 class="flaticon-down-arrow"></i></a>
                             <ul class="navi_2_dropdown">
                                 <li class="parent">
-                                    <a href="add_playlist.html"><i class="fas fa-caret-right"></i>featured playlist</a>
+                                    <a href="add_playlist.jsp"><i class="fas fa-caret-right"></i>featured playlist</a>
                                 </li>
                                 <li class="parent">
                                     <a href="artist.html"><i class="fas fa-caret-right"></i>top artists</a>

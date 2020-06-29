@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wave.mapper.SongMapper">
+    <resultMap id="songs" type="com.wave.po.Song">
+        <id column="song_id" property="songID"/>
+        <result column="song_data" property="songData"/>
+        <result column="song_type" property="songType"/>
+        <result column="song_name" property="songName"/>
+        <result column="song_singer" property="songSinger"/>
+        <result column="song_album" property="songAlbum"/>
+        <result column="song_icon" property="songIcon"/>
+        <result column="song_size" property="songSize"/>
+    </resultMap>
+    <select id="selectSongsByIds" parameterType="Integer" resultMap="songs">
+        select * from songs where 1=1 and song_id in
+        <foreach collection="array" open="(" close=")" separator="," item="value">
+            #{value}
+        </foreach>
+    </select>
+</mapper>
