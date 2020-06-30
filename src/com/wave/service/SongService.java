@@ -5,6 +5,5 @@ import com.wave.po.Song;
 import java.util.List;
 
 public interface SongService {
-    public List<Song> getDefaultSongList(Integer userid);
-
+    public List<Song> selectSongsByIds(String ids);
 }

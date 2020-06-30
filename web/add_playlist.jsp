@@ -12,7 +12,7 @@ Author:Webstrot
 
 <head>
     <meta charset="utf-8" />
-    <title>Wave——添加歌单</title>
+    <title>Wave——我的歌单</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Tunein,music,song" />
     <meta name="keywords" content="Tunein,music,song" />
@@ -388,7 +388,7 @@ Author:Webstrot
                             </div>
                         </div>
                     </div>
-                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="treanding_slider_main_box playlist_wrapper ms_cover">
                             <img src="images/td11.png" alt="img">
 
@@ -428,7 +428,7 @@ Author:Webstrot
                             </div>
                         </div>
                     </div>
-                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="treanding_slider_main_box playlist_wrapper ms_cover">
                             <span><a href="#">
 								   <i class="flaticon-playlist-3">
@@ -1449,7 +1449,9 @@ advertise </a></li>
     <script src="js/mp3/player.js"></script>
     <script src="js/custom.js"></script>
     <!-- custom js-->
+    <script>
 
+    </script>
 </body>
 
 </html>

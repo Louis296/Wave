@@ -13,5 +13,10 @@
     <select id="selectDefaultSongListById" parameterType="Integer" resultMap="songlistmap">
         select * from songlist where user_id=#{id} and list_name='default';
     </select>
-
+    <select id="selectSongListByIdAndName" parameterType="map" resultMap="songlistmap">
+        select * from songlist where user_id=#{uid} and list_name=#{listname};
+    </select>
+    <select id="selectAllSongList" parameterType="Integer" resultMap="songlistmap">
+        select * from songlist
+    </select>
 </mapper>
