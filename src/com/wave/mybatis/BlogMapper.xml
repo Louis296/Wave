@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wave.mapper.BlogMapper">
+    <!--1.根据博客id查找博客-->
+    <select id="selectBlogById" parameterType="Integer" resultType="com.wave.po.Blog">
+        select id,context,date,user_id from blogs where id=#{id}
+    </select>
+    <!--2.查找所有博客-->
+    <select id="selectALlBlogs" resultType="com.wave.po.Blog">
+        select * from blogs
+    </select>
+    <!--3.根据id删除博客-->
+    <delete id="deleteBlogById" parameterType="Integer">
+        delete from blogs where id=#{id}
+    </delete>
+    <!---4.根据id修改博客-->
+    <update id="updateBlogById" parameterType="com.wave.po.Blog">
+        update blogs set context=#{context},date=#{date},user_id=#{user_id} where id=#{id}
+    </update>
+    <!--5.增加博客-->
+    <insert id="addBlog" parameterType="com.wave.po.Blog" useGeneratedKeys="true" keyProperty="id">
+        insert into blogs (context,date,user_id) values (#{context},#{date},#{user_id});
+    </insert>
+    <!--根据用户id查询所有属于该用户的博客-->
+    <select id="selectUserBlogByUserid" resultType="com.wave.po.Blog" parameterType="Integer">
+        select * from blogs where user_id=#{uid}
+    </select>
+
+</mapper>
