@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.util.List" %>
+<%@ page import="com.wave.po.Song" %><%--
   Created by IntelliJ IDEA.
   User: Luozhihua
   Date: 2020/6/29
@@ -26,7 +27,7 @@
     </header>
     <section class="user">
         <div class="profile-img">
-            <p><img src="images/uiface2.png" alt="" height="40" width="40" />欢迎回来!</p>
+            <p><img src="images/uiface2.png" alt="" height="40" width="40" />管理员，欢迎回来!</p>
         </div>
         <div class="buttons">
             <button class="ico-font">&#9206;</button>
@@ -94,7 +95,7 @@
 		</span>
             <span class="button">直播</span>
             <span class="button">帮助</span>
-            <span class="button blue"><a href="index.html">注销</a></span>
+            <span class="button blue"><a href="index.jsp">注销</a></span>
         </div>
     </section>
 </div>
@@ -167,27 +168,22 @@
                 </tr>
                 </thead>
                 <tbody>
+                <%
+                    List<Song> songs=(List<Song>) session.getAttribute("songs");
+                    for (Song song:songs){
+                %>
+
                 <tr>
-                    <td class="avatar"><img src="1.jpg" alt="" height="40" width="40" />龙卷风</td>
-                    <td>周杰伦</td>
-                    <td>Jay</td>
-                    <td>5.1MB</td>
-                    <td>******</td>
+                    <td class="avatar"><img src=${pageContext.request.contextPath}<%="/"+song.getSongIcon()%> alt="" height="40" width="40" /><%=song.getSongName()%></td>
+                    <td><%=song.getSongSinger()%></td>
+                    <td><%=song.getSongAlbum()%></td>
+                    <td><%=song.getSongSize()%>MB</td>
+                    <td><%=song.getSongData()%></td>
                 </tr>
-                <tr>
-                    <td class="avatar"><img src="2.jpg" alt="" height="40" width="40" />双截棍</td>
-                    <td>周杰伦</td>
-                    <td>范特西</td>
-                    <td>6.1MB</td>
-                    <td>******</td>
-                </tr>
-                <tr>
-                    <td class="avatar"><img src="3.jpg" alt="" height="40" width="40" />以父之名</td>
-                    <td>周杰伦</td>
-                    <td>范特西</td>
-                    <td>7.5MB</td>
-                    <td>******</td>
-                </tr>
+
+                <%
+                    }
+                %>
 
 
                 <!--

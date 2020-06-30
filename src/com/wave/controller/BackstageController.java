@@ -2,8 +2,10 @@ package com.wave.controller;
 
 import com.sun.deploy.net.HttpRequest;
 import com.wave.po.Blog;
+import com.wave.po.Song;
 import com.wave.po.User;
 import com.wave.service.BackStageService;
+import com.wave.service.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,6 +21,10 @@ import java.util.List;
 public class BackstageController {
     @Autowired
     private BackStageService backStageService;
+
+    @Autowired
+    private SongService songService;
+
     @RequestMapping("logincheck")
     public String loginchek(HttpServletRequest request,HttpSession session){
         String username=request.getParameter("username");
@@ -37,11 +43,15 @@ public class BackstageController {
     public void selectAllInfo(HttpSession session){
        List<Blog> blogs=backStageService.selectAllBlogsService();
        List<User> users=backStageService.selectAllUsersService();
+       List<Song> songs=songService.selectAllSongs();
        int blogsize=blogs.size();
        int usersize=users.size();
+       int songsize=songs.size();
        session.setAttribute("blogsize",blogsize);
        session.setAttribute("usersize",usersize);
+       session.setAttribute("songsize",songsize);
        session.setAttribute("users",users);
+       session.setAttribute("songs",songs);
     }
     @RequestMapping("selectinfo")
     public String selectInfo(HttpSession session){

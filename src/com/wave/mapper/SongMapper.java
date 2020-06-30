@@ -10,4 +10,5 @@ import java.util.List;
 @Repository("songMapper")
 public interface SongMapper {
     public List<Song> selectSongsByIds(Integer[] id);
+    public List<Song> selectAllSongs();
 }

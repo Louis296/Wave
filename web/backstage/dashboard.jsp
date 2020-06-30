@@ -31,16 +31,16 @@
     </header>
     <section class="user">
         <div class="profile-img">
-            <p><img src="images/uiface2.png" alt="" height="40" width="40" />欢迎回来!</p>
+            <p><img src="images/uiface2.png" alt="" height="40" width="40" />管理员，欢迎回来!</p>
         </div>
         <div class="buttons">
             <button class="ico-font">&#9206;</button>
             <span class="button dropdown">
-			<a href="#">通知<<span class="pip">4</span></a>
+			<a href="#">通知<span class="pip">4</span></a>
 			<ul class="notice">
 				<li>
 					<hgroup>
-						<h1>您有新的任务./h1>
+						<h1>您有新的任务</h1>
 						<h2>按周次报告网站数据</h2>
 					</hgroup>
 					<p><span>14:24</span></p>
@@ -99,7 +99,7 @@
 		</span>
             <span class="button">直播</span>
             <span class="button">帮助</span>
-            <span class="button blue"><a href="index.html">注销</a></span>
+            <span class="button blue"><a href="index.jsp">注销</a></span>
         </div>
     </section>
 </div>
@@ -165,7 +165,7 @@
                         <p>用户</p>
                     </div>
                     <div class="stats">
-                        <p><span>927</span></p>
+                        <p><span>${songsize}</span></p>
                         <p>资源</p>
                     </div>
                 </section>

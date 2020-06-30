@@ -20,8 +20,10 @@ import java.util.List;
 public class SongController {
     @Autowired
     private SongListService songListService;
+
     @Autowired
     private SongService songService;
+
     @RequestMapping("/defaultsonglist")
     @ResponseBody
     public List<SongPOJO> getDefaultSongList(HttpSession session){
@@ -30,4 +32,7 @@ public class SongController {
         List<Song> songs=songService.selectSongsByIds(songList.getSongID());
         return SongConverseResponse.converse(songs);
     }
+
+
+
 }

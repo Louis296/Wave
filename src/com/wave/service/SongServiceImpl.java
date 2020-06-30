@@ -22,4 +22,9 @@ public class SongServiceImpl implements SongService {
         }
         return songMapper.selectSongsByIds(songidlist);
     }
+
+    @Override
+    public List<Song> selectAllSongs() {
+        return songMapper.selectAllSongs();
+    }
 }
