@@ -13,4 +13,5 @@ public interface BlogService {
     public void deleteBlogService(Integer id);
     public Blog selectBlogService(Integer id);
     public List<Blog> selectAllBlogsService();
+    public List<Blog> selectUserBlogByUserid(Integer uid);
 }

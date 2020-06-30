@@ -36,4 +36,10 @@ public class BlogServiceImpl implements BlogService {
     public void deleteBlogService(Integer id) {
         blogMapper.deleteBlogById(id);
     }
+
+    @Override
+    public List<Blog> selectUserBlogByUserid(Integer uid) {
+        List<Blog> list=blogMapper.selectUserBlogByUserid(uid);
+        return list;
+    }
 }

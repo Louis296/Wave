@@ -22,5 +22,9 @@
     <insert id="addBlog" parameterType="com.wave.po.Blog" useGeneratedKeys="true" keyProperty="id">
         insert into blogs (context,date,user_id) values (#{context},#{date},#{user_id});
     </insert>
+    <!--根据用户id查询所有属于该用户的博客-->
+    <select id="selectUserBlogByUserid" resultType="com.wave.po.Blog" parameterType="Integer">
+        select * from blogs where user_id=#{uid}
+    </select>
 
 </mapper>

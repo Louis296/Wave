@@ -14,4 +14,5 @@ public interface BlogMapper {
     public int deleteBlogById(Integer id);
     public int updateBlogById(Blog blog);
     public int addBlog(Blog blog);
+    public List<Blog> selectUserBlogByUserid(Integer uid);
 }
