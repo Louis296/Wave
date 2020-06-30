@@ -47,7 +47,7 @@ Author:Webstrot
     <div id="sidebar" class="bounce-to-right">
         <div id="toggle_close">×</div>
         <div id='cssmenu'>
-            <a href="index.jsp"><img src="images/logo.png" alt="logo"></a>
+            <a href="index.jsp"><img src="images/logoleft.png" height="93" alt="logo"></a>
             <ul class="sidebb">
                 <li class='has-sub'><a href='#'><i class="flaticon-home"></i>index</a>
                     <ul>
@@ -132,7 +132,7 @@ Author:Webstrot
             <div class="m24_logo_wrapper">
                 <div class="ms_logo_div">
                     <a href="index.jsp">
-                        <img src="images/logo.png" alt="logo">
+                        <img src="images/logo.png"  height="60" alt="logo">
                     </a>
                 </div>
                 <div id="toggle">
@@ -4387,7 +4387,7 @@ Author:Webstrot
                 <div class="col-lg-3 col-md-6 col-12 col-sm-12">
                     <div class="footer_widget footer_about_wrapper ms_cover">
                         <div class="wrapper_first_image">
-                            <a href="index.jsp"><img src="images/logo.png" class="img-responsive" alt="logo"/></a>
+                            <a href="index.jsp"><img src="images/logo.png" height="60" class="img-responsive" alt="logo"/></a>
                         </div>
                         <div class="abotus_content">
                             <p>Sed do eiusmod tempor unt ut labore et dolore magna liqua. Ut enim ad minim veniam...</p>
