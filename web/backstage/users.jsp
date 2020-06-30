@@ -176,7 +176,7 @@
                     for(User user:users){
                 %>
                 <tr>
-                    <td class="avatar"><img src="images/uiface2.png" alt="" height="40" width="40" /><%=user.getUserName()%></td>
+                    <td class="avatar"><img src=${pageContext.request.contextPath}<%="/"+user.getUserIcon()%> alt="" height="40" width="40" /><%=user.getUserName()%></td>
                     <td><%=user.getUserEmail()%></td>
                     <td><%=user.getUserPassword()%></td>
                     <td><%=user.getUserDate()%></td>
