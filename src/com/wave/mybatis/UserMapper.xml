@@ -27,4 +27,7 @@
     <select id="selectByID" parameterType="Integer" resultMap="user">
         select * from users where user_id=#{id}
     </select>
+    <select id="selectAllUsers" resultMap="user">
+        select * from users
+    </select>
 </mapper>

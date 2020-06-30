@@ -25,6 +25,7 @@
             </list>
         </property>
     </bean>
+
 <!--    配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <!--        前缀-->
@@ -32,10 +33,12 @@
 <!--        后缀-->
         <property name="suffix" value=".jsp"/>
     </bean>
+
 <!--    配置文件上传-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
           p:defaultEncoding="UTF-8" p:maxUploadSize="5400000" p:uploadTempDir="uploadfiles/temp">
     </bean>
     <!--    配置静态资源-->
+
     <mvc:default-servlet-handler />
 </beans>
