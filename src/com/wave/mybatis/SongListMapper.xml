@@ -16,7 +16,16 @@
     <select id="selectSongListByIdAndName" parameterType="map" resultMap="songlistmap">
         select * from songlist where user_id=#{uid} and list_name=#{listname};
     </select>
-    <select id="selectAllSongList" parameterType="Integer" resultMap="songlistmap">
-        select * from songlist
+    <select id="selectAllSongListById" parameterType="Integer" resultMap="songlistmap">
+        select * from songlist where user_id=#{id}
     </select>
+    <delete id="deleteSongListById" parameterType="Integer">
+        delete from songlist where id=#{id}
+    </delete>
+    <update id="updateSongList" parameterType="com.wave.po.SongList">
+        update songlist set list_name=#{listName},song_id=#{songID},type_id=#{listType} where id=#{listID}
+    </update>
+    <insert id="addSongList" parameterType="com.wave.po.SongList">
+        insert into songlist(list_name, song_id, type_id, user_id) values (#{listName},#{songID},#{listType},#{userID})
+    </insert>
 </mapper>

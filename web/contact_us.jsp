@@ -1,6 +1,5 @@
-<%@ page import="com.wave.po.Blog" %>
-<%@ page import="java.util.List" %>
-<%@ page pageEncoding="UTF-8" %>
+<%@page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <!--
 Template Name: Tunein
 Version: 1.0.0
@@ -13,7 +12,7 @@ Author:Webstrot
 
 <head>
     <meta charset="utf-8"/>
-    <title>Wave——个人博客</title>
+    <title>contact us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="description" content="Tunein,music,song"/>
     <meta name="keywords" content="Tunein,music,song"/>
@@ -35,12 +34,6 @@ Author:Webstrot
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
     <!--favicon-->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <script>
-        if (${empty user}){
-            alert("请先登录！");
-            window.location.href="${pageContext.request.contextPath}/user/login";
-        }
-    </script>
 </head>
 
 <body>
@@ -151,7 +144,7 @@ Author:Webstrot
 
             <div class="m24_header_right_Wrapper d-none d-sm-none d-md-none d-lg-none d-xl-block">
                 <div class="m24_signin_wrapper">
-                    <a href="${pageContext.request.contextPath}${empty user?"/user/login":"/pricing_plan.jsp"}" id="loginbtn"><img src="${empty user?"images/pf.png":user.userIcon}" alt="img">
+                    <a href="${pageContext.request.contextPath}${empty user?"/user/login":"pricing_plan.jsp"}" id="loginbtn"><img src="${empty user?"images/pf.png":user.userIcon}" alt="img">
                         <div class="login_top_wrapper">
                             <p>${empty user?"":user.userName}</p>
 
@@ -245,9 +238,9 @@ Author:Webstrot
                                 <li class="parent">
                                     <a href="pricing_plan.jsp"><i class="fas fa-caret-right"></i> 订阅方案 </a>
                                 </li>
-                                <li class="parent">
+                                <!--<li class="parent">
                                     <a href="error_page.html"><i class="fas fa-caret-right"></i> 错误页面 </a>
-                                </li>
+                                </li>-->
                                 <li class="parent">
                                     <a href="favourite.html"><i class="fas fa-caret-right"></i> 我的收藏 </a>
                                 </li>
@@ -344,7 +337,7 @@ Author:Webstrot
                         </label>
                     </div>
                     <div class="lang_list_wrapper d-none d-sm-none d-md-none d-lg-none d-xl-block">
-                        <a href="#" data-toggle="modal" data-target="#myModal">语言 <i class="fas fa-language"></i></a>
+                        <!--<a href="#" data-toggle="modal" data-target="#myModal">语言 <i class="fas fa-language"></i></a>-->
                     </div>
                 </div>
             </div>
@@ -358,11 +351,11 @@ Author:Webstrot
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="indx_title_left_wrapper ms_cover">
-                        <h2>音乐博客 I</h2>
+                        <h2> 联系我们</h2>
 
                         <ul>
                             <li><a href="#">主页</a> &nbsp;&nbsp;&nbsp;/</li>
-                            <li>音乐博客 I</li>
+                            <li> 联系我们</li>
                         </ul>
 
                     </div>
@@ -372,328 +365,144 @@ Author:Webstrot
         </div>
     </div>
     <!-- inner Title End -->
-    <!-- blog category wrapper start-->
-    <div class="blog_category_wrapper ms_cover">
-
+    <!-- contact_icon_section start-->
+    <div class="contact_icon_section ms_cover">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12 blog_responsive">
-                    <%
-                        List<Blog> blogs=(List<Blog>) session.getAttribute("Blogs");
-                        if (blogs!=null){
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="ms_heading_wrapper ms_cover text-center">
 
-                            for (Blog blog:blogs){
-                    %>
-                    <div class="blog_category_box_wrapper blog_box_wrapper float_left">
-                        <div class="blog_news_img_wrapper float_left">
+                        <h1>联系我们</h1>
 
-                            <img src="images/blog_cat1.jpg" alt="blog_img">
-
-                        </div>
-                        <div class="lest_news_cont_wrapper float_left">
-
-                            <div class="blog_heaidng_top">
-                                <span> <i class="flaticon-calendar"></i><%=blog.getDate()%></span>
-                                <h3><a href="#"></a></h3>
-
-                            </div>
-                            <div class="blog-single_cntnt">
-                                <p><%=blog.getContext()%></p>
-                                <a href="${pageContext.request.contextPath }/index/selectUpdateBlog?id=<%=blog.getId()%>">阅读全部</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <%
-                            }
-                        }
-                    %>
-<%--                    <div class="blog_category_box_wrapper blog_box_wrapper float_left">--%>
-<%--                        <div id="blogoneSlider" class="carousel slide" data-ride="carousel">--%>
-
-<%--                            <!-- Wrapper for slides -->--%>
-<%--                            <div class="carousel-inner" role="listbox">--%>
-<%--                                <div class="carousel-item active">--%>
-<%--                                    <img src="images/blog_cate2.jpg" class="img-responsive " alt="Image">--%>
-<%--                                </div>--%>
-<%--                                <div class="carousel-item">--%>
-<%--                                    <img src="images/blog_cat1.jpg" class="img-responsive " alt="Image">--%>
-<%--                                </div>--%>
-<%--                            </div>--%>
-
-<%--                            <!-- Controls -->--%>
-<%--                            <a class="left carousel-control" href="#blogoneSlider" role="button" data-slide="prev">--%>
-<%--                                <span class="flaticon-left-arrow"></span>--%>
-<%--                                <span class="sr-only">Previous</span>--%>
-<%--                            </a>--%>
-<%--                            <a class="right carousel-control" href="#blogoneSlider" role="button" data-slide="next">--%>
-<%--                                <span class="flaticon-right-arrow" aria-hidden="true"></span>--%>
-<%--                                <span class="sr-only">Next</span>--%>
-<%--                            </a>--%>
-<%--                        </div>--%>
-
-<%--                        <div class="lest_news_cont_wrapper float_left">--%>
-
-<%--                            <div class="blog_heaidng_top">--%>
-<%--                                <span> <i class="flaticon-calendar"></i> 7月8日，2020</span>--%>
-<%--                                <h3><a href="#">--%>
-<%--                                    Alonso Kelina Falao--%>
-<%--                                    Asiano Pero--%>
-<%--                                </a></h3>--%>
-
-<%--                            </div>--%>
-<%--                            <div class="blog-single_cntnt">--%>
-<%--                                <p>Web typography is now more stylish and malleable than ever before. New CSS3--%>
-<%--                                    properties allow for trul unique typographic effects that in the past wouldve--%>
-<%--                                    required images and custom JavaScript.Each of the following code snippets. This is--%>
-<%--                                    shop version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean--%>
-<%--                                    sollicitudin, lorem quis bibendum auctor, nisi consequat ipsum, nec sagittis sem--%>
-<%--                                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>--%>
-<%--                                <a href="#"> 阅读全部</a>--%>
-<%--                            </div>--%>
-
-<%--                        </div>--%>
-
-<%--                    </div>--%>
-                    <div class="blog_category_box_wrapper blog_box_wrapper float_left">
-<%--                        <div class="blog_news_img_wrapper float_left">--%>
-
-<%--                            <img src="images/blog_cat3.jpg" alt="blog_img">--%>
-
-<%--                        </div>--%>
-<%--                        <div class="lest_news_cont_wrapper float_left">--%>
-
-<%--                            <div class="blog_heaidng_top">--%>
-<%--                                <span> <i class="flaticon-calendar"></i> 7月8日，2020</span>--%>
-<%--                                <h3><a href="#">Celebrating Winter Holidays--%>
-<%--                                </a></h3>--%>
-
-<%--                            </div>--%>
-<%--                            <div class="blog-single_cntnt">--%>
-<%--                                <p>Web typography is now more stylish and malleable than ever before. New CSS3--%>
-<%--                                    properties allow for trul unique typographic effects that in the past wouldve--%>
-<%--                                    required images and custom JavaScript.Each of the following code snippets. This is--%>
-<%--                                    shop version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean--%>
-<%--                                    sollicitudin, lorem quis bibendum auctor, nisi consequat ipsum, nec sagittis sem--%>
-<%--                                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>--%>
-<%--                                <a href="#"> 阅读全部</a>--%>
-<%--                            </div>--%>
-
-<%--                        </div>--%>
-
-                    </div>
-
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-<%--                        <div class="blog_pagination_section ms_cover">--%>
-<%--                            <ul>--%>
-<%--                                <li>--%>
-<%--                                    <a href="#" class="prev"> <i class="flaticon-left-arrow"></i> </a>--%>
-<%--                                </li>--%>
-<%--                                <li><a href="#">1</a>--%>
-<%--                                </li>--%>
-<%--                                <li class="third_pagger"><a href="#">2</a>--%>
-<%--                                </li>--%>
-<%--                                <li class="d-block d-sm-block d-md-block d-lg-block"><a href="#">3</a>--%>
-<%--                                </li>--%>
-<%--                                <li class="d-none d-sm-block d-md-block d-lg-block"><a href="#">...</a>--%>
-<%--                                </li>--%>
-<%--                                <li class="d-none d-sm-block d-md-block d-lg-block"><a href="#">6</a>--%>
-<%--                                </li>--%>
-
-<%--                                <li>--%>
-<%--                                    <a href="#" class="next"><i class="flaticon-right-arrow"></i></a>--%>
-<%--                                </li>--%>
-<%--                            </ul>--%>
-<%--                        </div>--%>
-
+                        <p></p>
                     </div>
                 </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="sidebar_widget">
-                        <h4>查找</h4>
-                        <form class="search_form" role="search">
-                            <div class="form-group">
-
-                                <input type="text" class="form-control" placeholder="">
-                                <i class="fa fa-search"></i>
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="sidebar_widget">
-                        <h4>有新想法？</h4>
-
-                        <div class="archives_wrapper">
-                            <ul>
-                                <li>
-                                    <a href="${pageContext.request.contextPath}/blog/input.jsp">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> 去写博客
-                                    </a>
-                                </li>
-<%--                                <li>--%>
-<%--                                    <a href="#">--%>
-<%--                                        <i class="fa fa-angle-right" aria-hidden="true"></i>最热专辑--%>
-<%--                                    </a>--%>
-<%--                                </li>--%>
-<%--                                <li>--%>
-<%--                                    <a href="#">--%>
-<%--                                        <i class="fa fa-angle-right" aria-hidden="true"></i>演唱会门票--%>
-
-<%--                                    </a>--%>
-<%--                                </li>--%>
-<%--                                <li>--%>
-<%--                                    <a href="#">--%>
-<%--                                        <i class="fa fa-angle-right" aria-hidden="true"></i>乐器--%>
-<%--                                    </a>--%>
-<%--                                </li>--%>
-<%--                                <li>--%>
-<%--                                    <a href="#">--%>
-<%--                                        <i class="fa fa-angle-right" aria-hidden="true"></i>最热录像带--%>
-<%--                                    </a>--%>
-<%--                                </li>--%>
-
-                            </ul>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact_main ms_cover">
+                        <div class="contact_rotate">
+                            <i class="fas fa-phone"></i>
                         </div>
+                        <h4>电话</h4>
+                        <p>+1800-148-423
+                            <br> +9175-148-124</p>
                     </div>
-
-                    <div class="sidebar_widget">
-                        <div class="wrapper_second_blog wrapper_second_blog_2">
-                            <h4>音乐邮报</h4>
-                            <div class="blog_wrapper1">
-                                <div class="blog_image">
-                                    <img src="images/blog_1.png" class="img-responsive" alt="img"/>
-                                </div>
-                                <div class="sv_blog_text">
-                                    <h5><a href="#">
-                                        Dream to Moments</a></h5>
-                                    <div class="blog_date blog_date_blog"><i class="fa fa-calendar-o"
-                                                                             aria-hidden="true"></i>Aug 28, 2018-19
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog_wrapper2">
-                                <div class="blog_image">
-                                    <img src="images/blog_2.png" class="img-responsive" alt="img"/>
-                                </div>
-                                <div class="sv_blog_text">
-                                    <h5><a href="#">
-                                        Gimme Courage</a></h5>
-                                    <div class="blog_date blog_date_blog"><i class="fa fa-calendar-o"
-                                                                             aria-hidden="true"></i>Aug 28, 2018-19
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog_wrapper2">
-                                <div class="blog_image">
-                                    <img src="images/blog_3.png" class="img-responsive" alt="img"/>
-                                </div>
-                                <div class="sv_blog_text">
-                                    <h5><a href="#">
-                                        Until I Met You</a></h5>
-                                    <div class="blog_date blog_date_blog"><i class="fa fa-calendar-o"
-                                                                             aria-hidden="true"></i>Aug 28, 2018-19
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog_wrapper2">
-                                <div class="blog_image">
-                                    <img src="images/blog_4.png" class="img-responsive" alt="img"/>
-                                </div>
-                                <div class="sv_blog_text">
-                                    <h5><a href="#">
-                                        I luv music</a></h5>
-                                    <div class="blog_date blog_date_blog"><i class="fa fa-calendar-o"
-                                                                             aria-hidden="true"></i>Aug 28, 2018-19
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact_main ms_cover">
+                        <div class="contact_rotate">
+                            <i class="fas fa-envelope"></i>
                         </div>
+                        <h4>邮箱</h4>
+                        <p><a href="#">music24@example.com </a>
+                            <br><a href="#">support@example.com</a></p>
                     </div>
-                    <div class="sidebar_widget">
-                        <h4>音乐标签</h4>
-
-                        <div class="archives_wrapper">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i> january-2019
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>february-2019
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>march-2019
-
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>april-2019
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>may-2019
-                                    </a>
-                                </li>
-
-                            </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact_main ms_cover">
+                        <div class="contact_rotate">
+                            <i class="fas fa-map-marker-alt"></i>
                         </div>
-                    </div>
-                    <div class="sidebar_widget">
-                        <h4>标签</h4>
-
-                        <div class="gc_blog_cloud_side_menu">
-
-                            <ul>
-                                <li><a href="#">音乐剧</a>
-                                </li>
-                                <li><a href="#">事件</a>
-                                </li>
-                                <li><a href="#">蓝调</a>
-                                </li>
-                                <li><a href="#">演唱会</a>
-                                </li>
-                                <li><a href="#">巡回演出</a>
-                                </li>
-                                <li><a href="#">舞蹈</a></li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="ms_banner_img ms_cover">
-                        <img src="images/banner_article.jpg" alt="img">
-                        <div class="app_btn banner_btn ms_cover">
-                            <a href="#">现在购买</a>
-
-                        </div>
-                    </div>
-                    <div class="sidebar_widget">
-                        <h4>分享</h4>
-                        <ul class="icon_list_news top_cover">
-                            <li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
-                            <li>
-                                <a href="#" class="twit"> <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li><a href="#" class="linkd"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
-
-                        </ul>
-
+                        <h4>地址</h4>
+                        <p>51-Maxico ,canada
+                            <br> 52B-melbourne,UK</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- blog category wrapper end -->
+    <!-- contact info section end -->
+    <!-- ms map Start -->
+    <div class="map_main_wrapper ms_cover">
+        <div id="map"></div>
+    </div>
+    <!-- ms map End -->
+    <!-- contact_wrapper start -->
+    <div class="contact_section ms_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="ms_heading_wrapper ms_cover text-center">
+
+                        <h1>联系我们</h1>
+
+                        <p>您对我们网站想要提出的问题或建议</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-pos">
+                                    <div class="form-group i-name">
+
+                                        <input type="text" class="form-control require" name="first_name" required=""
+                                               placeholder="姓*">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-pos">
+                                    <div class="form-group i-name">
+
+                                        <input type="text" class="form-control require" name="last_name" required=""
+                                               placeholder="名*">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-md-12 -->
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-e">
+                                    <div class="form-group i-email">
+                                        <input type="email" class="form-control require" name="email" required=""
+                                               placeholder=" 邮箱 *" data-valid="email"
+                                               data-error="Email should be valid.">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-md-12 -->
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-s">
+                                    <div class="form-group i-subject">
+
+                                        <input type="text" class="form-control require" name="Subject" required=""
+                                               placeholder="职业 *">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-md-12 -->
+                            <div class="col-md-12">
+                                <div class="form-m">
+                                    <div class="form-group i-message">
+
+                                        <textarea class="form-control require" name="message" required="" rows="5"
+                                                  id="messageTen" placeholder=" 正文"></textarea>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-md-12 -->
+                            <div class="col-md-12">
+                                <div class="tb_es_btn_div">
+                                    <div class="response"></div>
+                                    <div class="tb_es_btn_wrapper">
+                                        <button type="button" class="submitForm"><i class="flaticon-play-button"></i> 发送
+                                            !
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact_wrapper end -->
     <!-- download wrapper start -->
     <div class="download_wrapper ms_cover">
         <div class="concert_overlay"></div>
@@ -930,16 +739,15 @@ Author:Webstrot
                 <div class="col-lg-3 col-md-6 col-12 col-sm-12">
                     <div class="footer_widget footer_about_wrapper ms_cover">
                         <div class="wrapper_first_image">
-                            <a href="index.jsp"><img src="images/logo.png" height="60" class="img-responsive"
-                                                     alt="logo"/></a>
+                            <a href="index.jsp"><img src="images/logo.png" height="60" class="img-responsive" alt="logo"/></a>
                         </div>
                         <div class="abotus_content">
                             <p>Sed do eiusmod tempor unt ut labore et dolore magna liqua. Ut enim ad minim veniam...</p>
                         </div>
                         <ul class="footer_about_link_wrapper ms_cover">
                             <li><i class="fa fa-phone"></i>808 - 111 - 9999</li>
-                            <li><a href="#"><i class="fa fa-envelope"></i>Tunein@example.com</a></li>
-                            <li><a href="#"><i class="fas fa-user-alt"></i>Tunein@support.com</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i>m24hr@example.com</a></li>
+                            <li><a href="#"><i class="fas fa-user-alt"></i>m24hr@support.com</a></li>
                         </ul>
 
                     </div>
@@ -1419,8 +1227,21 @@ Author:Webstrot
 <script src="js/owl.carousel.js"></script>
 <script src="js/mp3/player.js"></script>
 <script src="js/custom.js"></script>
-
+<script src="js/islogin.js"></script>
 <!-- custom js-->
+<script>
+    function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2),
+            zoom: 14,
+            scrollwheel: false,
+
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+</script>
+<script src="https://ditu.google.cn/maps/api/js?callback=myMap"></script>
 </body>
 
 </html>

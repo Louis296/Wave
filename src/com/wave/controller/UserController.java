@@ -9,8 +9,11 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -27,7 +30,8 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/register")
-    public String userRegister(User user, HttpServletRequest request) throws Exception{
+    @ResponseBody
+    public String userRegister(@RequestBody User user, HttpServletRequest request) throws Exception{
         //初始化用户注册日期，等级，听歌记录
         SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         user.setUserDate(simpleDateFormat.format(new Date()));
@@ -37,7 +41,10 @@ public class UserController {
         String path=request.getServletContext().getRealPath("uploadfiles/icon/");
         String uuid = UUID.randomUUID().toString().replaceAll("-","");
         String filename=null;
-        if (!user.getIconFile().isEmpty()){
+        if (user.getIconFile()==null){
+            filename="defaultUserIcon.jpg";
+        }
+        else if (!user.getIconFile().isEmpty()){
             String contentType=user.getIconFile().getContentType();
             String suffixName=contentType.substring(contentType.indexOf("/")+1);
             filename=uuid+"."+suffixName;
@@ -46,7 +53,7 @@ public class UserController {
         user.setUserIcon("uploadfiles/icon/"+filename);
         userService.register(user);
         logger.info("注册成功");
-        return "login";
+        return "success";
     }
 
     @RequestMapping("/login")

@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -27,22 +28,20 @@ public class BlogController {
         Date date=new Date();
         Blog blog=new Blog();
         blog.setDate(date);
-        User user=new User();
-         user.setUserID(2);
-        session.setAttribute("user",user);
-        User user1=(User)session.getAttribute("user");//获取Po中的User对象
+        User user1=(User)session.getAttribute("user");
         int id=user1.getUserID();
         blog.setContext(request.getParameter("context"));
         blog.setUser_id(id);
         blogService.addBlogService(blog);
-        return "redirect:/blog/input.jsp";
+        return "redirect:/index/finduserblog";
     }
     //1.获取更新博客(发出更新请求时调用)
     @RequestMapping("selectUpdateBlog")
-    public String selectUpdateBlog(HttpSession session){
-       //int id=(Integer) session.getAttribute("updateblogid");//updateid为获取要修改的博客id
-        Blog updateBlog=blogService.selectBlogService(17);
-        session.setAttribute("updateblogid",17);
+    public String selectUpdateBlog(HttpSession session,HttpServletRequest request){
+//        int id=(Integer) session.getAttribute("updateblogid");//updateid为获取要修改的博客id
+        int id=Integer.parseInt(request.getParameter("id"));
+        Blog updateBlog=blogService.selectBlogService(id);
+        session.setAttribute("updateblogid",id);
         session.setAttribute("updateblog",updateBlog);//用于获取博客并设置修改页面
         return "redirect:/blog/updateblog.jsp";//跳转到更新后的界面
     }
@@ -53,7 +52,7 @@ public class BlogController {
         String context=request.getParameter("updatecontext");//修改后的博客内容
         updateBlog.setContext(context);
         blogService.updateBlogService(updateBlog);
-        return "redirect:/blog/input.jsp";//返回博客主页或者其他界面
+        return "redirect:/index/finduserblog";//返回博客主页或者其他界面
     }
 
     //用于处理删除博客的请求
@@ -61,7 +60,7 @@ public class BlogController {
     public String deleteBlog(HttpSession session){
         int id=(Integer) session.getAttribute("updateblogid");//传入要删除的博客id
         blogService.deleteBlogService(id);
-        return "redirect:/blog/input.jsp";
+        return "redirect:/index/finduserblog";
     }
     //用于处理所有查找博客的请求
     @RequestMapping("searchAllBlogs")
@@ -76,14 +75,17 @@ public class BlogController {
         Blog blog=blogService.selectBlogService(id);
         return blog;
     }
+
     //根据用户id查找所有的博客
     @RequestMapping("finduserblog")
-    public List<Blog> finduserblog(HttpSession session){
+    public String finduserblog(HttpSession session){
         User user= (User) session.getAttribute("user");
-        int uid=user.getUserID();
-        List<Blog> list=blogService.selectUserBlogByUserid(uid);
-        //session.setAttribute("userbloglist",list);
-        return list;
+        if (user!=null){
+            int uid=user.getUserID();
+            List<Blog> list=blogService.selectUserBlogByUserid(uid);
+            session.setAttribute("Blogs",list);
+        }
+        return "redirect:/blog_categories.jsp";
     }
 
 }

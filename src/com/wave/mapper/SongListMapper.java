@@ -12,5 +12,8 @@ import java.util.Map;
 public interface SongListMapper {
     public SongList selectDefaultSongListById(Integer id);
     public SongList selectSongListByIdAndName(Map<String,Object> param);
-    public List<SongList> selectAllSongList(Integer id);
+    public List<SongList> selectAllSongListById(Integer id);
+    public void deleteSongListById(Integer id);
+    public void updateSongList(SongList songList);
+    public void addSongList(SongList songList);
 }

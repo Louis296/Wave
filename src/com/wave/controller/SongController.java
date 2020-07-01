@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
@@ -24,15 +25,80 @@ public class SongController {
     @Autowired
     private SongService songService;
 
+
+    private String playerListName="default";
+
     @RequestMapping("/defaultsonglist")
     @ResponseBody
-    public List<SongPOJO> getDefaultSongList(HttpSession session){
+    public List<SongPOJO> getPlayerList(HttpSession session){
         User user= (User) session.getAttribute("user");
-        SongList songList=songListService.getDefaultSongList(user.getUserID());
+//        SongList songList=songListService.getDefaultSongList(user.getUserID());
+        SongList songList=songListService.getSongListByIdAndName(user.getUserID(),playerListName);
+        session.setAttribute("playerlist",songList);
         List<Song> songs=songService.selectSongsByIds(songList.getSongID());
         return SongConverseResponse.converse(songs);
     }
 
+    @RequestMapping("/getallsonglist")
+    public String getAllSongList(HttpSession session){
+        User user=(User) session.getAttribute("user");
+        List<SongList> list=songListService.getAllSongListById(user.getUserID());
+        session.setAttribute("AllSongList",list);
+        return "redirect:/add_playlist.jsp";
+    }
 
+    @RequestMapping("/changeplayerlist")
+    public String changePlayerList(HttpServletRequest request){
+        playerListName=request.getParameter("listname");
+        return "redirect:/song/getallsonglist";
+    }
 
+    @RequestMapping("/deletesonglist")
+    public String deleteSongList(HttpServletRequest request){
+        Integer id=Integer.parseInt(request.getParameter("id"));
+        songListService.deleteSongListById(id);
+        return "redirect:/song/getallsonglist";
+    }
+
+    @RequestMapping("/addsonglist")
+    public String addSongList(HttpServletRequest request,HttpSession session){
+        User user=(User)session.getAttribute("user");
+        List<SongList> songLists= (List<SongList>) session.getAttribute("AllSongList");
+        int i=songLists.size();
+        SongList songList=new SongList();
+        songList.setSongID("");
+        songList.setListName("新建歌单"+i);
+        songList.setListType("流行");
+        songList.setUserID(user.getUserID());
+        songListService.addSongList(songList);
+        return "redirect:/song/getallsonglist";
+    }
+
+    @RequestMapping("/searchsong")
+    public String searchSong(HttpServletRequest request,HttpSession session){
+        String word=request.getParameter("word");
+        List<Song> result=songService.selectSongByWord(word);
+        session.setAttribute("searchresult",result);
+        return "redirect:/search_result.jsp";
+    }
+
+    @RequestMapping("/addtosonglist")
+    public String addToSongList(HttpServletRequest request,HttpSession session){
+        String addsongid=request.getParameter("songid");
+        SongList songList= (SongList) session.getAttribute("playerlist");
+        String[] songs=songList.getSongID().split(",");
+        for (String id:songs){
+            if (id.equals(addsongid)){
+                return "redirect:/search_result.jsp";
+            }
+        }
+        StringBuffer stringBuffer=new StringBuffer(songList.getSongID());
+        if (songList.getSongID().equals(""))
+            stringBuffer.append(addsongid);
+        else
+            stringBuffer.append(","+addsongid);
+        songList.setSongID(stringBuffer.toString());
+        songListService.updateSongList(songList);
+        return "redirect:/search_result.jsp";
+    }
 }

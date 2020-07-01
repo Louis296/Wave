@@ -1,4 +1,4 @@
-v<%@ page import="com.wave.po.Blog" %>
+<%@ page import="com.wave.po.Blog" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="com.wave.controller.BlogController" %>
 <%@ page import="com.wave.mapper.BlogMapper" %><%--
@@ -13,6 +13,7 @@ v<%@ page import="com.wave.po.Blog" %>
 <html>
 <head>
     <title>修改博客</title>
+
 </head>
 <body>
 <%
@@ -67,7 +68,7 @@ v<%@ page import="com.wave.po.Blog" %>
             时间：2020-06-30
             描述：返回按钮中将href设置为你要返回的页面即可
         -->
-        <a href="#" style="
+        <a href="${pageContext.request.contextPath }/index/finduserblog" style="
 			color:#FFFFFF;
 			font-size: 30px;
 			font-family:'宋体';

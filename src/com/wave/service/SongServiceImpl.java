@@ -27,4 +27,9 @@ public class SongServiceImpl implements SongService {
     public List<Song> selectAllSongs() {
         return songMapper.selectAllSongs();
     }
+
+    @Override
+    public List<Song> selectSongByWord(String word) {
+        return songMapper.selectSongsByWord(word);
+    }
 }

@@ -22,4 +22,7 @@
     <select id="selectAllSongs" resultMap="songs">
         select * from songs
     </select>
+    <select id="selectSongsByWord" parameterType="String" resultMap="songs">
+        select * from songs where song_name like concat('%',#{word},'%') or song_singer like concat('%',#{word},'%') or song_album like concat('%',#{word},'%')
+    </select>
 </mapper>

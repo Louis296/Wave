@@ -7,4 +7,5 @@ import java.util.List;
 public interface SongService {
     public List<Song> selectSongsByIds(String ids);
     public List<Song> selectAllSongs();
+    public List<Song> selectSongByWord(String word);
 }

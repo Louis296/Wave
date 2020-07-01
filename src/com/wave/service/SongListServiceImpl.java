@@ -30,8 +30,23 @@ public class SongListServiceImpl implements SongListService {
     }
 
     @Override
-    public List<SongList> getAllSongList(Integer userid) {
-        return songListMapper.selectAllSongList(userid);
+    public List<SongList> getAllSongListById(Integer userid) {
+        return songListMapper.selectAllSongListById(userid);
+    }
+
+    @Override
+    public void deleteSongListById(Integer id) {
+        songListMapper.deleteSongListById(id);
+    }
+
+    @Override
+    public void updateSongList(SongList songList) {
+        songListMapper.updateSongList(songList);
+    }
+
+    @Override
+    public void addSongList(SongList songList) {
+        songListMapper.addSongList(songList);
     }
 
 

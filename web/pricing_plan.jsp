@@ -1,3 +1,4 @@
+<%@page pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <!-- 
 Template Name: Tunein
@@ -33,6 +34,12 @@ Author:Webstrot
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <!--favicon-->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <script>
+        if (${empty user}){
+            alert("请先登录！");
+            window.location.href="${pageContext.request.contextPath}/user/login";
+        }
+    </script>
 </head>
 
 <body>
@@ -47,93 +54,94 @@ Author:Webstrot
     <div class="m24_main_wrapper">
        <div id="sidebar" class="bounce-to-right">
         <div id="toggle_close">×</div>
-        <div id='cssmenu'>
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-            <ul class="sidebb">
-                <li class='has-sub'><a href='#'><i class="flaticon-home"></i>主题 </a>
-                    <ul>
-                        <li>
-                            <a href="index.html"> <i class="flaticon-home"></i>主题 I</a>
-                        </li>
-                        <li><a href="index2.html"><i class="flaticon-home"></i>主题 II</a></li>
-                        <li><a href="index3.html"><i class="flaticon-home"></i>主题 III</a></li>
-                        <li><a href="index4.html"><i class="flaticon-home"></i>主题 IV</a></li>
+           <div id='cssmenu'>
+               <a href="index.jsp"><img src="images/logoleft.png" height="93" alt="logo"></a>
+               <ul class="sidebb">
+                   <li><a href='index.jsp'><i class="flaticon-home"></i>主页</a>
+                       <%--                    <ul>--%>
+                       <%--                        <li>--%>
+                       <%--                            <a href="index.jsp"> <i class="flaticon-home"></i>主题 I</a>--%>
+                       <%--                        </li>--%>
+                       <%--                        <li><a href="index2.html"><i class="flaticon-home"></i>主题 II</a></li>--%>
+                       <%--                        <li><a href="index3.html"><i class="flaticon-home"></i>主题 III</a></li>--%>
+                       <%--                        <li><a href="index4.html"><i class="flaticon-home"></i>主题 IV</a></li>--%>
 
-                    </ul>
-                </li>
-                <li class='has-sub'><a href='#'><i class="flaticon-album"></i>专辑</a>
-                    <ul>
-                        <li>
-                            <a href="album.html"> <i class="flaticon-vinyl"></i>语种</a>
-                        </li>
-                        <li><a href="album_list.html"><i class="flaticon-playlist-1"></i>流派</a></li>
-                        <li><a href="artist.html"><i class="flaticon-headphones"></i>歌手</a></li>
-                        <li><a href="artist_single.html"><i class="flaticon-speaker"></i>推荐歌手</a></li>
-                       
-                    </ul>
-                </li>               
-                <li class='has-sub'><a href='#'><i class="flaticon-playlist-3"></i>音乐馆</a>
-                    <ul>
-                        <li><a href="add_playlist.jsp"><i class="flaticon-music"></i>歌单</a></li>
-                        <li><a href="free_music.html"><i class="flaticon-music-1"></i>免费音乐</a></li>
-                        <li><a href="genres.html"><i class="flaticon-files-and-folders"></i>音乐类型</a></li>
-                        <li><a href="genres_single.html"><i class="flaticon-smartphone"></i>推荐新歌</a></li>
-						<li><a href="stations.html"><i class="flaticon-radio"></i>电台</a></li>
-                    </ul>
-                </li>
-				 <li class='has-sub'><a href='#'><i class="flaticon-clock"></i>音乐圈事件</a>
-                    <ul>
-                        <li><a href="events.html"><i class="flaticon-calendar"></i>全部事件</a></li>
-                        <li><a href="event_single.html"><i class="flaticon-files-and-folders"></i>推荐事件</a></li>
-                    </ul>
-                </li>
-				 <li class='has-sub'><a href='#'><i class="flaticon-playlist-1"></i>我的音乐</a>
-                    <ul>
-                        <li><a href="download.html"><i class="flaticon-download"></i>本地音乐</a></li>
-                        <li><a href="favourite.html"><i class="flaticon-heart"></i>我的收藏</a></li>
-						<li><a href="history.html"><i class="flaticon-clock"></i>最近播放</a></li>
-						<li><a href="free_music.html"><i class="flaticon-music-1"></i>免费音乐</a></li>
-                    </ul>
-                </li>
-                <li class='has-sub'><a href='#'><i class="flaticon-shopping-bag"></i>购物</a>
-                    <ul>
-                        <li><a href="shop_sidebar.html"><i class="flaticon-smartphone"></i>周边商品</a></li>
-                        <li>
-                            <a href="shop_single.html"> <i class="flaticon-info"></i>购买专辑</a>
-                        </li>                    
-                    </ul>
-                </li>
-				 <li class='has-sub'><a href='#'><i class="flaticon-playlist"></i>音乐博客</a>
-                    <ul>
-                        <li><a href="blog_categories.html"><i class="flaticon-vinyl"></i>音乐博客 I</a></li>
-                        <li>
-                            <a href="blog_category2.html"> <i class="flaticon-album"></i>音乐博客 II</a>
-                        </li>
-                        <li>
-                            <a href="blog_single.html"> <i class="flaticon-globe"></i>所有博客</a>
-                        </li> 						
-                    </ul>
-                </li>
-                <li><a href='contact_us.html'><i class="flaticon-internet"></i>联系我们</a></li>
-                <li><a href='pricing_plan.html'><i class="flaticon-bell"></i>订阅方案</a></li>
-                <li><a href='error_page.html'><i class="flaticon-trash"></i>错误页面</a></li>
-            </ul>
-				<div class="lang_apply_btn">
-			    <ul>
-					<li>
-					  <a href="#"> <i class="flaticon-play-button"></i></a>
-					</li>
-			   </ul>
-		  </div>
-        </div>
-    </div>
+                       <%--                    </ul>--%>
+                   </li>
+                   <%--                <li class='has-sub'><a href='#'><i class="flaticon-album"></i>专辑</a>--%>
+                   <%--                    <ul>--%>
+                   <%--                        <li>--%>
+                   <%--                            <a href="album.html"> <i class="flaticon-vinyl"></i>语种</a>--%>
+                   <%--                        </li>--%>
+                   <%--                        <li><a href="album_list.html"><i class="flaticon-playlist-1"></i>流派</a></li>--%>
+                   <%--                        <li><a href="artist.html"><i class="flaticon-headphones"></i>歌手</a></li>--%>
+                   <%--                        <li><a href="artist_single.html"><i class="flaticon-speaker"></i>推荐歌手</a></li>--%>
+                   <%--                       --%>
+                   <%--                    </ul>--%>
+                   <%--                </li>               --%>
+                   <li class='has-sub'><a href='#'><i class="flaticon-playlist-3"></i>音乐馆</a>
+                       <ul>
+                           <li><a href="${pageContext.request.contextPath}/song/getallsonglist"><i class="flaticon-music"></i>歌单</a></li>
+                           <!-- <li><a href="free_music.html"><i class="flaticon-music-1"></i>free music</a></li>-->
+                           <li><a href="genres.jsp"><i class="flaticon-files-and-folders"></i>音乐类型</a></li>
+                           <li><a href="genres_single.jsp"><i class="flaticon-smartphone"></i>推荐新歌</a></li>
+                           <%--						<li><a href="stations.html"><i class="flaticon-radio"></i>电台</a></li>--%>
+                       </ul>
+                   </li>
+                   <%--				 <li class='has-sub'><a href='#'><i class="flaticon-clock"></i>音乐圈事件</a>--%>
+                   <%--                    <ul>--%>
+                   <%--                        <li><a href="events.html"><i class="flaticon-calendar"></i>全部事件</a></li>--%>
+                   <%--                        <li><a href="event_single.html"><i class="flaticon-files-and-folders"></i>推荐事件</a></li>--%>
+                   <%--                    </ul>--%>
+                   <%--                </li>--%>
+                   <%--				 <li class='has-sub'><a href='#'><i class="flaticon-playlist-1"></i>我的音乐</a>--%>
+                   <%--                    <ul>--%>
+                   <%--                        <li><a href="#" class="myone"><i class="flaticon-download"></i>本地音乐</a></li>--%>
+                   <%--                        <li><a href="#" class="mytwo"><i class="flaticon-heart"></i>我的收藏</a></li>--%>
+                   <%--                        <li><a href="#" class="mythree"><i class="flaticon-clock"></i>最近播放</a></li>--%>
+                   <%--                        <!--<li><a href="free_music.html"><i class="flaticon-music-1"></i>免费音乐</a></li>		-->--%>
+                   <%--                    </ul>--%>
+                   <%--                </li>--%>
+                   <!-- <li class='has-sub'><a href='#'><i class="flaticon-shopping-bag"></i> shop</a>
+                        <ul>
+                            <li><a href="shop_sidebar.html"><i class="flaticon-smartphone"></i>shop sidebar</a></li>
+                            <li>
+                                <a href="shop_single.html"> <i class="flaticon-info"></i>shop single</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                   <li><a href='${pageContext.request.contextPath}/index/finduserblog'><i class="flaticon-playlist"></i> 音乐博客</a>
+                       <%--                    <ul>--%>
+                       <%--                        <li><a href="${pageContext.request.contextPath}/index/finduserblog"><i class="flaticon-vinyl"></i>音乐博客 I</a></li>--%>
+                       <%--                        <li>--%>
+                       <%--                            <a href="blog_category2.html"> <i class="flaticon-album"></i>音乐博客 II</a>--%>
+                       <%--                        </li>--%>
+                       <%--                        <li>--%>
+                       <%--                            <a href="blog_single.html"> <i class="flaticon-globe"></i>全部博客</a>--%>
+                       <%--                        </li> 						--%>
+                       <%--                    </ul>--%>
+                   </li>
+                   <li><a href='contact_us.jsp'><i class="flaticon-internet"></i>联系我们</a></li>
+                   <li><a href='pricing_plan.jsp'><i class="flaticon-bell"></i>订阅方案</a></li>
+                   <!--<li><a href='error_page.html'><i class="flaticon-trash"></i>错误页面</a></li>-->
+               </ul>
+               <div class="lang_apply_btn">
+                   <ul>
+                       <li>
+                           <!-- <a href="#"> <i class="flaticon-play-button"></i>create</a>-->
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+       </div>
         <!-- top navi wrapper end -->
        <div class="m24_navi_main_wrapper ms_cover">
         <div class="container-fluid">
             <div class="m24_logo_wrapper">
                 <div class="ms_logo_div">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="logo">
+                    <a href="index.jsp">
+                        <img src="images/logo.png" height="60" alt="logo">
                     </a>
                 </div>
                 <div id="toggle">
@@ -142,13 +150,14 @@ Author:Webstrot
             </div>
 
             <div class="m24_header_right_Wrapper d-none d-sm-none d-md-none d-lg-none d-xl-block">
-                <div class="m24_signin_wrapper">
-                    <a href="#" id="loginbtn"><img src="images/pf.png" alt="img">
+                <div class="m24_signin_wrapper" style="display: flex;align-items: center;">
+                    <a href="${pageContext.request.contextPath}${empty user?"/user/login":"/user/logout"}" id="loginbtn"><img src="${empty user?"images/pf.png":user.userIcon}" alt="img">
                         <div class="login_top_wrapper">
-                            <p></p>
-
+                            <p>Exit</p>
                         </div>
                     </a>
+<%--                    <a href="${pageContext.request.contextPath}/user/logout" style="display: none;" class="tuichu">退出</a>--%>
+
                 </div>
                 <div class="crm_message_dropbox_wrapper">
                     <div class="nice-select budge_noti_wrapper" tabindex="0"> <span class="current budge_noti"><i class="flaticon-bell"></i></span>
@@ -215,7 +224,7 @@ Author:Webstrot
                                     <a href="artist.html"><i class="fas fa-caret-right"></i>歌手</a>
                                 </li>
                                 <li class="parent">
-                                    <a href="genres.html"><i class="fas fa-caret-right"></i>流派</a>
+                                    <a href="genres.jsp"><i class="fas fa-caret-right"></i>流派</a>
                                 </li>
                                 <li class="parent">
                                     <a href="album.html"><i class="fas fa-caret-right"></i>专辑</a>
@@ -229,14 +238,14 @@ Author:Webstrot
                         <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">更多 <i class="flaticon-down-arrow"></i></a>
                             <ul class="navi_2_dropdown">
                                 <li class="parent">
-                                    <a href="contact_us.html"><i class="fas fa-caret-right"></i>联系我们</a>
+                                    <a href="contact_us.jsp"><i class="fas fa-caret-right"></i>联系我们</a>
                                 </li>
                                 <li class="parent">
-                                    <a href="pricing_plan.html"><i class="fas fa-caret-right"></i>订阅方案</a>
+                                    <a href="pricing_plan.jsp"><i class="fas fa-caret-right"></i>订阅方案</a>
                                 </li>
-                                <li class="parent">
+                               <!-- <li class="parent">
                                     <a href="error_page.html"><i class="fas fa-caret-right"></i>错误页面</a>
-                                </li>
+                                </li>-->
                                 <li class="parent">
                                     <a href="favourite.html"><i class="fas fa-caret-right"></i>我的收藏</a>
                                 </li>                              
@@ -330,7 +339,7 @@ Author:Webstrot
 						  </label>						
 					  </div>  
 						<div class="lang_list_wrapper d-none d-sm-none d-md-none d-lg-none d-xl-block">
-							<a href="#" data-toggle="modal" data-target="#myModal">语言 <i class="fas fa-language"></i></a>
+							<!--<a href="#" data-toggle="modal" data-target="#myModal">语言 <i class="fas fa-language"></i></a>-->
 						</div>   					  
 					</div>
 				</div>
@@ -693,7 +702,7 @@ Neha Kakkar
                     <div class="col-lg-3 col-md-6 col-12 col-sm-12">
                         <div class="footer_widget footer_about_wrapper ms_cover">
                             <div class="wrapper_first_image">
-                                <a href="index.html"><img src="images/logo.png" class="img-responsive" alt="logo" /></a>
+                                <a href="index.jsp"><img src="images/logo.png" height="60" class="img-responsive" alt="logo" /></a>
                             </div>
                             <div class="abotus_content">
                                 <p>Sed do eiusmod tempor unt ut labore et dolore magna liqua. Ut enim ad minim veniam...</p>
@@ -793,7 +802,7 @@ advertise </a></li>
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <div class="btm_foter_box">
 
-                            <p>Copyright © 2019 <a href="index.html"> Tunein </a> Template designed by <a href="#"> Webstrot.</a></p>
+                            <p>Copyright © 2019 <a href="index.jsp"> Tunein </a> Template designed by <a href="#"> Webstrot.</a></p>
                             <div class="aboutus_social_icons">
                                 <a href="#">Get Tunein <i class="flaticon-play-button"></i></a>
                             </div>
@@ -1157,6 +1166,7 @@ advertise </a></li>
             </div>
         </div>
     </div>
+
     <!-- playlist wrapper end -->
     <!--custom js files-->
 	<script src="js/local.js"></script>
@@ -1174,7 +1184,42 @@ advertise </a></li>
     <script src="js/owl.carousel.js"></script>
     <script src="js/mp3/player.js"></script>
     <script src="js/custom.js"></script>
+	<script src="js/islogin.js"></script>
+	<script src="js/islogin.js"></script>
     <!-- custom js-->
+<%--	<script>--%>
+<%--		window.alert = function(name){--%>
+<%--		--%>
+<%--		        var iframe = document.createElement("IFRAME");--%>
+<%--		        iframe.style.display="none";--%>
+<%--		        iframe.setAttribute("src", 'data:text/plain,');--%>
+<%--		        document.documentElement.appendChild(iframe);--%>
+<%--		        window.frames[0].window.alert(name);--%>
+<%--		        iframe.parentNode.removeChild(iframe);--%>
+<%--		    };--%>
+<%--		--%>
+<%--		--%>
+<%--		window.confirm = function (message) {--%>
+<%--		            var iframe = document.createElement("IFRAME");--%>
+<%--		            iframe.style.display = "none";--%>
+<%--		            iframe.setAttribute("src", 'data:text/plain,');--%>
+<%--		            document.documentElement.appendChild(iframe);--%>
+<%--		            var alertFrame = window.frames[0];--%>
+<%--		            var result = alertFrame.window.confirm(message);--%>
+<%--		            iframe.parentNode.removeChild(iframe);--%>
+<%--		            return result;--%>
+<%--		    };--%>
+<%--		if(localStorage.getItem('islogin')){--%>
+<%--			$(".tuichu").css({'display':'inline-block','padding': '5px'})--%>
+<%--		}--%>
+<%--		$(".tuichu").click(function(){--%>
+<%--			 var r=confirm("确定退出？");--%>
+<%--			    if (r==true){--%>
+<%--			        localStorage.clear();--%>
+<%--					window.location.reload();--%>
+<%--			    }--%>
+<%--			})--%>
+<%--	</script>--%>
 </body>
 
 </html>

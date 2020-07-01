@@ -11,4 +11,5 @@ import java.util.List;
 public interface SongMapper {
     public List<Song> selectSongsByIds(Integer[] id);
     public List<Song> selectAllSongs();
+    public List<Song> selectSongsByWord(String word);
 }
