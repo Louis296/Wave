@@ -36,7 +36,7 @@
 
 <!--    配置文件上传-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
-          p:defaultEncoding="UTF-8" p:maxUploadSize="5400000" p:uploadTempDir="uploadfiles/temp">
+          p:defaultEncoding="UTF-8" p:maxUploadSize="100000000" p:uploadTempDir="uploadfiles/temp">
     </bean>
     <!--    配置静态资源-->
 

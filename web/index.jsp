@@ -409,9 +409,9 @@ Author:Webstrot
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <div class="content">
 
-                                        <h1 data-animation="animated fadeInUp">聆听</h1>
+                                        <h1 data-animation="animated fadeInUp">Wave</h1>
 
-                                        <h2 data-animation="animated fadeInUp">你的世界</h2>
+                                        <h2 data-animation="animated fadeInUp">感受律动</h2>
                                         <p data-animation="animated fadeInUp">
                                             <br> </p>
                                         <div class="slider_btn ms_cover">
@@ -447,7 +447,7 @@ Author:Webstrot
 
                                         <h1 data-animation="animated fadeInUp">聆听</h1>
 
-                                        <h2 data-animation="animated fadeInUp">你的世界</h2>
+                                        <h2 data-animation="animated fadeInUp">感受律动</h2>
                                         <p data-animation="animated fadeInUp">
                                             <br></p>
                                         <div class="slider_btn ms_cover">
@@ -514,14 +514,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -538,14 +538,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
-<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
-<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
-<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -562,14 +562,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1003&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="#">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1003&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -586,14 +586,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1004&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="#">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1004&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -610,14 +610,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1005&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="#">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1005&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -634,14 +634,14 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1006&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                            <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>
                                         <div class="tranding_play_icon">
-                                            <a href="#">
+                                            <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1006&index=true">
                                                 <i class="flaticon-play-button"></i>
                                             </a>
                                         </div>
@@ -658,1382 +658,1382 @@ Author:Webstrot
 
     <!-- treanding song wrapper end -->
     <!-- release album wrapper start -->
-    <div class="treanding_songs_wrapper release_wrapper ms_cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="ms_heading_wrapper">
-                        <h1>最新专辑
-</h1>
-                    </div>
-                    <div class="relaese_viewall_wrapper">
-                        <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>
-                    </div>
-                    <!--<div class="release_tabs_wrapper">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home"> hindi</a>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu1">english</a>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu2"> telugu</a>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu3"> punjabi</a>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu4"> marathi </a>
-                            </li>
-                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu5"> bhojpuri</a>
-                            </li>
+<%--    <div class="treanding_songs_wrapper release_wrapper ms_cover">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 col-md-12 col-sm-12">--%>
+<%--                    <div class="ms_heading_wrapper">--%>
+<%--                        <h1>最新专辑--%>
+<%--</h1>--%>
+<%--                    </div>--%>
+<%--                    <div class="relaese_viewall_wrapper">--%>
+<%--                        <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>--%>
+<%--                    </div>--%>
+<%--                    <!--<div class="release_tabs_wrapper">--%>
+<%--                        <ul class="nav nav-tabs">--%>
+<%--                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home"> hindi</a>--%>
+<%--                            </li>--%>
+<%--                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu1">english</a>--%>
+<%--                            </li>--%>
+<%--                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu2"> telugu</a>--%>
+<%--                            </li>--%>
+<%--                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu3"> punjabi</a>--%>
+<%--                            </li>--%>
+<%--                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu4"> marathi </a>--%>
+<%--                            </li>--%>
+<%--                            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu5"> bhojpuri</a>--%>
+<%--                            </li>--%>
 
-                        </ul>
-                    </div>-->
+<%--                        </ul>--%>
+<%--                    </div>-->--%>
 
-                </div>
-                <div class="col-xl-12 col-lg-12 col-md-12">
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane active">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="menu1" class="tab-pane fade">
-                            <div class="row">
+<%--                </div>--%>
+<%--                <div class="col-xl-12 col-lg-12 col-md-12">--%>
+<%--                    <div class="tab-content">--%>
+<%--                        <div id="home" class="tab-pane active">--%>
+<%--                            <div class="row">--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div id="menu1" class="tab-pane fade">--%>
+<%--                            <div class="row">--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="menu2" class="tab-pane fade">
-                            <div class="row">
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div id="menu2" class="tab-pane fade">--%>
+<%--                            <div class="row">--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
 
-                        <div id="menu3" class="tab-pane fade">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                        <div id="menu3" class="tab-pane fade">--%>
+<%--                            <div class="row">--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="menu4" class="tab-pane fade">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div id="menu4" class="tab-pane fade">--%>
+<%--                            <div class="row">--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="menu5" class="tab-pane fade">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel3.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Sadda Move song</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel2.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Ik Vaari Aa jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div id="menu5" class="tab-pane fade">--%>
+<%--                            <div class="row">--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel3.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Sadda Move song</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel2.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Ik Vaari Aa jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel1.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Dilla Ther Jaa</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel5.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">wafa ne bewafai</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel1.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Dilla Ther Jaa</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel5.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">wafa ne bewafai</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel4.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">me hoon don</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel4.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">me hoon don</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel6.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">tera chehra</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel6.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">tera chehra</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">
-                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">
-                                        <img src="images/rel.png" alt="img">
-                                        <div class="release_content_artist">
-                                            <p><a href="#">Jabariya Jodi</a></p>
-                                            <p class="various_artist_text"><a href="#"> </a></p>
-                                        </div>
-                                        <div class="ms_treanding_box_overlay release_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<%--                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 pd1">--%>
+<%--                                    <div class="treanding_slider_main_box release_box_main_content ms_cover">--%>
+<%--                                        <img src="images/rel.png" alt="img">--%>
+<%--                                        <div class="release_content_artist">--%>
+<%--                                            <p><a href="#">Jabariya Jodi</a></p>--%>
+<%--                                            <p class="various_artist_text"><a href="#"> </a></p>--%>
+<%--                                        </div>--%>
+<%--                                        <div class="ms_treanding_box_overlay release_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
 
-            </div>
-        </div>
-    </div>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
 
     <!-- release album wrapper end -->
     <!-- addvertisment wrapper start -->
@@ -2832,589 +2832,589 @@ Until I Met You</a></p>
     </div>
     <!-- concert wrapper end -->
     <!-- treanding song wrapper start -->
-    <div class="treanding_songs_wrapper punjabi_sogns ms_cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="ms_heading_wrapper">
-                        <h1>舞曲</h1>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                    <div class="treanding_song_slider playlist_songs_list">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
+<%--    <div class="treanding_songs_wrapper punjabi_sogns ms_cover">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 col-md-12 col-sm-12">--%>
+<%--                    <div class="ms_heading_wrapper">--%>
+<%--                        <h1>舞曲</h1>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">--%>
+<%--                    <div class="treanding_song_slider playlist_songs_list">--%>
+<%--                        <div class="owl-carousel owl-theme">--%>
+<%--                            <div class="item">--%>
 
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td7.png" alt="img">
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td7.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Mb Rekon</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Mb Rekon</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td8.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td8.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Max Spring</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Max Spring</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td9.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td9.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">veere di wedding</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">veere di wedding</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td4.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td4.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Lambiyaan Si</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Lambiyaan Si</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td5.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td5.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Dilla Ther Jaa</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Dilla Ther Jaa</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/td6.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/td6.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">4 G Ka Jamana</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">4 G Ka Jamana</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
 
     <!-- treanding song wrapper end -->
 
     <!-- treanding song wrapper start -->
-    <div class="treanding_songs_wrapper punjabi_sogns ms_cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="ms_heading_wrapper">
-                        <h1>复古歌单</h1>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                    <div class="treanding_song_slider playlist_songs_list">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
+<%--    <div class="treanding_songs_wrapper punjabi_sogns ms_cover">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 col-md-12 col-sm-12">--%>
+<%--                    <div class="ms_heading_wrapper">--%>
+<%--                        <h1>复古歌单</h1>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">--%>
+<%--                    <div class="treanding_song_slider playlist_songs_list">--%>
+<%--                        <div class="owl-carousel owl-theme">--%>
+<%--                            <div class="item">--%>
 
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/rt1.png" alt="img">
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/rt1.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Hotshot Space</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Hotshot Space</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/rt2.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/rt2.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Friendly Patience</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Friendly Patience</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz3.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz3.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Faking Freedom</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Faking Freedom</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/rt4.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/rt4.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Rock Will Find </a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Rock Will Find </a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz1.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz1.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Just Another Lightning</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Just Another Lightning</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/rt6.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/rt6.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">4 G Ka Jamana</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">4 G Ka Jamana</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
 
     <!-- treanding song wrapper end -->
     <!-- treanding song wrapper start -->
-    <div class="treanding_songs_wrapper ms_cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="ms_heading_wrapper">
-                        <h1>爵士歌单</h1>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                    <div class="treanding_song_slider">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
+<%--    <div class="treanding_songs_wrapper ms_cover">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 col-md-12 col-sm-12">--%>
+<%--                    <div class="ms_heading_wrapper">--%>
+<%--                        <h1>爵士歌单</h1>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">--%>
+<%--                    <div class="treanding_song_slider">--%>
+<%--                        <div class="owl-carousel owl-theme">--%>
+<%--                            <div class="item">--%>
 
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz1.png" alt="img">
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz1.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Supernatural Feast</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Supernatural Feast</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz2.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz2.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Antique Sun</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Antique Sun</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz3.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz3.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Rocking Star</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Rocking Star</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz4.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz4.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#">Lambiyaan Si</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#">Lambiyaan Si</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz5.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz5.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Sense Unleashed</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Sense Unleashed</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                            <div class="item">
-                                <div class="treanding_slider_main_box ms_cover">
-                                    <img src="images/jz6.png" alt="img">
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+<%--                                <div class="treanding_slider_main_box ms_cover">--%>
+<%--                                    <img src="images/jz6.png" alt="img">--%>
 
-                                    <div class="ms_treanding_box_overlay">
-                                        <div class="ms_tranding_box_overlay"></div>
-                                        <div class="ms_tranding_more_icon">
-                                            <i class="flaticon-menu"></i>
-                                        </div>
-                                        <ul class="tranding_more_option">
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                        </ul>
-                                        <div class="tranding_play_icon various_concert_icon">
-                                            <a href="#">
-                                                <i class="flaticon-play-button"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="various_song_playlist">
-                                        <p><a href="#"> Reckless Ruin</a></p>
+<%--                                    <div class="ms_treanding_box_overlay">--%>
+<%--                                        <div class="ms_tranding_box_overlay"></div>--%>
+<%--                                        <div class="ms_tranding_more_icon">--%>
+<%--                                            <i class="flaticon-menu"></i>--%>
+<%--                                        </div>--%>
+<%--                                        <ul class="tranding_more_option">--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                        </ul>--%>
+<%--                                        <div class="tranding_play_icon various_concert_icon">--%>
+<%--                                            <a href="#">--%>
+<%--                                                <i class="flaticon-play-button"></i>--%>
+<%--                                            </a>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="various_song_playlist">--%>
+<%--                                        <p><a href="#"> Reckless Ruin</a></p>--%>
 
-                                    </div>
-                                </div>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
 
     <!-- treanding song wrapper end -->
     <!-- download wrapper start -->
@@ -4174,9 +4174,21 @@ advertise </a></li>
                                     <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
                                     <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
                                     <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                    <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                    <li><a id="delete" href=""><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
                                 </ul>
+                                <script>
+                                    $(document).ready(function(){
+                                        //点击链接的时候调用
+                                        $("#delete").click(function(){
 
+                                            //得到input的值
+                                            var songaddress = $("#jp_audio_0").attr("src");
+
+                                            //设置href的值
+                                            $("#delete").attr("href","${pageContext.request.contextPath}/song/deletesongfromlist?songaddress="+songaddress);
+                                        });
+                                    });
+                                </script>
                             </div>
                         </div>
                         <div class="jp-details">

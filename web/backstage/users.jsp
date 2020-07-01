@@ -168,6 +168,7 @@
                     <th>邮箱</th>
                     <th>密码</th>
                     <th>注册日期</th>
+                    <th>注销</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -180,6 +181,7 @@
                     <td><%=user.getUserEmail()%></td>
                     <td><%=user.getUserPassword()%></td>
                     <td><%=user.getUserDate()%></td>
+                    <td><a href="${pageContext.request.contextPath }/backstage/deleteuser?userid=<%=user.getUserID()%>">注销用户</a> </td>
                 </tr>
                 <%
                     }

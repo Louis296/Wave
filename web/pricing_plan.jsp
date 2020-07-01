@@ -12,7 +12,7 @@ Author:Webstrot
 
 <head>
     <meta charset="utf-8" />
-    <title>pricing plan</title>
+    <title>Wave——个人和订阅</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Tunein,music,song" />
     <meta name="keywords" content="Tunein,music,song" />

@@ -30,4 +30,7 @@
     <select id="selectAllUsers" resultMap="user">
         select * from users
     </select>
+    <delete id="deleteUserById" parameterType="Integer">
+        delete from users where user_id=#{id}
+    </delete>
 </mapper>

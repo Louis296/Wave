@@ -25,4 +25,13 @@
     <select id="selectSongsByWord" parameterType="String" resultMap="songs">
         select * from songs where song_name like concat('%',#{word},'%') or song_singer like concat('%',#{word},'%') or song_album like concat('%',#{word},'%')
     </select>
+    <insert id="addSong" parameterType="com.wave.po.Song">
+        insert into songs(song_data, song_type, song_name, song_singer, song_album, song_icon, song_size) values (#{songData},#{songType},#{songName},#{songSinger},#{songAlbum},#{songIcon},#{songSize})
+    </insert>
+    <delete id="deleteSongById" parameterType="Integer">
+        delete from songs where song_id=#{id}
+    </delete>
+    <select id="selectSongByAddress" parameterType="String" resultMap="songs">
+        select * from songs where song_data=#{data}
+    </select>
 </mapper>

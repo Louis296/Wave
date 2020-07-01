@@ -14,7 +14,7 @@ Author:Webstrot
 
 <head>
     <meta charset="utf-8" />
-    <title>add playlist</title>
+    <title>Wave——我的歌单</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Tunein,music,song" />
     <meta name="keywords" content="Tunein,music,song" />

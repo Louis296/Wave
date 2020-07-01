@@ -85,11 +85,12 @@ public class SongController {
     @RequestMapping("/addtosonglist")
     public String addToSongList(HttpServletRequest request,HttpSession session){
         String addsongid=request.getParameter("songid");
+        String index=request.getParameter("index");
         SongList songList= (SongList) session.getAttribute("playerlist");
         String[] songs=songList.getSongID().split(",");
         for (String id:songs){
             if (id.equals(addsongid)){
-                return "redirect:/search_result.jsp";
+                return index.equals("true")?"redirect:/index.jsp":"redirect:/search_result.jsp";
             }
         }
         StringBuffer stringBuffer=new StringBuffer(songList.getSongID());
@@ -99,6 +100,33 @@ public class SongController {
             stringBuffer.append(","+addsongid);
         songList.setSongID(stringBuffer.toString());
         songListService.updateSongList(songList);
-        return "redirect:/search_result.jsp";
+        return index.equals("true")?"redirect:/index.jsp":"redirect:/search_result.jsp";
     }
+
+    @RequestMapping("/deletesongfromlist")
+    public String deleteSongFromList(HttpServletRequest request,HttpSession session){
+        String songaddress=request.getParameter("songaddress");
+        String[] str=songaddress.split("/");
+        StringBuffer stringBuffer=new StringBuffer();
+        for (int i=str.length-1;i>=str.length-3;i--){
+            stringBuffer.insert(0,str[i]);
+            stringBuffer.insert(0,"/");
+        }
+        stringBuffer.insert(0,".");
+        songaddress=stringBuffer.toString();
+        Song song=songService.selectSongByAddress(songaddress);
+        SongList songList=(SongList)session.getAttribute("playerlist");
+        String[] songs=songList.getSongID().split(",");
+        StringBuilder newsongs= new StringBuilder();
+        for (String s:songs){
+            if (!s.equals(""+song.getSongID())){
+                newsongs.append(s+",");
+            }
+        }
+        newsongs.deleteCharAt(newsongs.length()-1);
+        songList.setSongID(newsongs.toString());
+        songListService.updateSongList(songList);
+        return "redirect:/index.jsp";
+    }
+
 }

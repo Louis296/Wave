@@ -1,6 +1,7 @@
 package com.wave.controller;
 
 
+import com.wave.po.SongList;
 import com.wave.po.User;
 
 import com.wave.service.UserService;
@@ -53,6 +54,13 @@ public class UserController {
         user.setUserIcon("uploadfiles/icon/"+filename);
         userService.register(user);
         logger.info("注册成功");
+        //为用户初始化一个默认歌单
+        SongList songList=new SongList();
+        songList.setListName("default");
+        songList.setSongID("");
+        songList.setListType("流行");
+
+//        songList.setUserID();
         return "success";
     }
 

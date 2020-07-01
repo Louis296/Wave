@@ -14,7 +14,7 @@ Author:Webstrot
 
 <head>
     <meta charset="utf-8" />
-    <title>download</title>
+    <title>Wave——搜索结果</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Tunein,music,song" />
     <meta name="keywords" content="Tunein,music,song" />
@@ -426,7 +426,7 @@ Author:Webstrot
                                             i++;
                                 %>
                                 <ul class="album_inner_list_padding">
-                                    <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=<%=song.getSongID()%>"><span class="play_no"><%=i%></span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                    <li><a href="${pageContext.request.contextPath}/song/addtosonglist?index=false&songid=<%=song.getSongID()%>"><span class="play_no"><%=i%></span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
                                     <li class="song_title_width">
                                         <div class="top_song_artist_wrapper">
 
@@ -447,9 +447,9 @@ Author:Webstrot
                                             <i class="flaticon-menu"></i>
                                         </div>
                                         <ul class="tranding_more_option">
-                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=<%=song.getSongID()%>"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/song/addtosonglist?index=false&songid=<%=song.getSongID()%>"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
-<%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                            <li><a download="" href="<%=song.getSongData()%>"><span class="opt_icon"><i class="flaticon-share"></i></span>下载</a></li>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
 <%--                                            <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                         </ul>

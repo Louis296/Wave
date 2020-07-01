@@ -1,5 +1,7 @@
 package com.wave.po;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class Song {
     private Integer songID;
     private String songData;
@@ -9,6 +11,25 @@ public class Song {
     private String songAlbum;
     private String songIcon;
     private Double songSize;
+
+    private MultipartFile iconFile;
+    private MultipartFile songFile;
+
+    public MultipartFile getSongFile() {
+        return songFile;
+    }
+
+    public void setSongFile(MultipartFile songFile) {
+        this.songFile = songFile;
+    }
+
+    public MultipartFile getIconFile() {
+        return iconFile;
+    }
+
+    public void setIconFile(MultipartFile iconFile) {
+        this.iconFile = iconFile;
+    }
 
     public Integer getSongID() {
         return songID;

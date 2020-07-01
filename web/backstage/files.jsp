@@ -145,7 +145,7 @@
             </hgroup>
             <aside>
 				<span>
-					<a href="#">&#9881;</a>
+					<a href="${pageContext.request.contextPath}/backstage/musicupload.jsp">&#9881;</a>
 					<ul class="settings-dd">
 						<li><label>Option a</label><input type="checkbox" /></li>
 						<li><label>Option b</label><input type="checkbox" checked="checked" /></li>
@@ -165,6 +165,7 @@
                     <th>专辑名</th>
                     <th>大小</th>
                     <th>存储路径</th>
+                    <th>删除</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -179,8 +180,8 @@
                     <td><%=song.getSongAlbum()%></td>
                     <td><%=song.getSongSize()%>MB</td>
                     <td><%=song.getSongData()%></td>
+                    <td><a href="${pageContext.request.contextPath}/backstage/deletemusic?id=<%=song.getSongID()%>">删除</a></td>
                 </tr>
-
                 <%
                     }
                 %>
