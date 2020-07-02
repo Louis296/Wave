@@ -26,6 +26,6 @@
     <orderEntry type="library" name="Spring MVC-5.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Tomcatlib" level="project" />
     <orderEntry type="library" name="jquery-3.3.1" level="application" />
-
+    <orderEntry type="library" name="echarts" level="application" />
   </component>
 </module>

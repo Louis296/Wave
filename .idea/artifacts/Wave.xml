@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Wave">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wave</output-path>
+    <root id="archive" name="Wave.war">
+      <element id="artifact" artifact-name="Wave:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>

@@ -25,7 +25,6 @@ public class SongController {
     @Autowired
     private SongService songService;
 
-
     private String playerListName="default";
 
     @RequestMapping("/defaultsonglist")
@@ -42,6 +41,8 @@ public class SongController {
     @RequestMapping("/getallsonglist")
     public String getAllSongList(HttpSession session){
         User user=(User) session.getAttribute("user");
+        if (user==null)
+            return "redirect:/add_playlist.jsp";
         List<SongList> list=songListService.getAllSongListById(user.getUserID());
         session.setAttribute("AllSongList",list);
         return "redirect:/add_playlist.jsp";

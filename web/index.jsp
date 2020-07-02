@@ -209,20 +209,20 @@ Author:Webstrot
                         <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">浏览 <i class="flaticon-down-arrow"></i></a>
                             <ul class="navi_2_dropdown">
                                 <li class="parent">
-                                    <a href="add_playlist.jsp"><i class="fas fa-caret-right"></i>歌单</a>
+                                    <a href="${pageContext.request.contextPath}/song/getallsonglist"><i class="fas fa-caret-right"></i>歌单</a>
                                 </li>
-                                <li class="parent">
-                                    <a href="artist.html"><i class="fas fa-caret-right"></i>歌手</a>
-                                </li>
-                                <li class="parent">
-                                    <a href="genres.jsp"><i class="fas fa-caret-right"></i>流派</a>
-                                </li>
-                                <li class="parent">
-                                    <a href="album.html"><i class="fas fa-caret-right"></i>专辑</a>
-                                </li>
-                                <li class="parent">
-                                    <a href="album_list.html"><i class="fas fa-caret-right"></i>排行榜</a>
-                                </li>
+<%--                                <li class="parent">--%>
+<%--                                    <a href="artist.html"><i class="fas fa-caret-right"></i>歌手</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="parent">--%>
+<%--                                    <a href="genres.jsp"><i class="fas fa-caret-right"></i>流派</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="parent">--%>
+<%--                                    <a href="album.html"><i class="fas fa-caret-right"></i>专辑</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="parent">--%>
+<%--                                    <a href="album_list.html"><i class="fas fa-caret-right"></i>排行榜</a>--%>
+<%--                                </li>--%>
                             </ul>
                         </li>
                         <li><a href="stations.html" class="gc_main_navigation">电台</a></li>
@@ -237,9 +237,9 @@ Author:Webstrot
                                <!-- <li class="parent">
                                     <a href="error_page.html"><i class="fas fa-caret-right"></i> 错误页面 </a>
                                 </li>-->
-                                <li class="parent">
-                                    <a href="favourite.html"><i class="fas fa-caret-right"></i> 我的收藏 </a>
-                                </li>                              
+<%--                                <li class="parent">--%>
+<%--                                    <a href="favourite.html"><i class="fas fa-caret-right"></i> 我的收藏 </a>--%>
+<%--                                </li>                              --%>
                             </ul>
                         </li>
 
@@ -465,7 +465,7 @@ Author:Webstrot
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                     <div class="content_img_wrapper">
-                                        <img src="images/banner2.jpg" alt="img">
+                                        <img src="images/banner3.jpg" alt="img">
                                     </div>
                                 </div>
 
@@ -2058,48 +2058,48 @@ Author:Webstrot
                         <div class="ms_heading_wrapper">
                             <h1>排行榜</h1>
                         </div>
-                        <div class="relaese_viewall_wrapper">
-                            <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>
-                        </div>
+<%--                        <div class="relaese_viewall_wrapper">--%>
+<%--                            <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>--%>
+<%--                        </div>--%>
                         <div class="top_songs_list ms_cover">
                             <div class="top_songs_list_left">
                                 <div class="treanding_slider_main_box top_lis_left_content">
                                     <div class="top_songs_list0img">
-                                        <img src="images/tp1.png" alt="img">
+                                        <img src="images/ms1.jpg" height="60" alt="img">
                                         <div class="ms_treanding_box_overlay">
                                             <div class="ms_tranding_box_overlay"></div>
 
                                             <div class="tranding_play_icon">
-                                                <a href="#">
+                                                <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001&index=true">
                                                     <i class="flaticon-play-button"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">Let me Love You</a></p>
-                                        <p class="various_artist_text"><a href="#">Auguste Rodin</a></p>
+                                        <p><a href="#">Flower Shower</a></p>
+                                        <p class="various_artist_text"><a href="#">Kim Hyun A</a></p>
                                     </div>
 
                                 </div>
                                 <div class="top_list_tract_time">
-                                    <p>4:23</p>
+                                    <p>3:08</p>
                                 </div>
                             </div>
                             <div class="top_songs_list_right">
                                 <div class="top_list_tract_view">
-                                    <p>6.1M+播放次数</p>
+                                    <p>热度:1100</p>
                                 </div>
                                 <div class="top_song_list_picks">
                                     <div class="ms_tranding_more_icon">
                                         <i class="flaticon-menu"></i>
                                     </div>
                                     <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                     </ul>
                                 </div>
                             </div>
@@ -2108,42 +2108,41 @@ Author:Webstrot
                             <div class="top_songs_list_left">
                                 <div class="treanding_slider_main_box top_lis_left_content">
                                     <div class="top_songs_list0img">
-                                        <img src="images/tp2.png" alt="img">
+                                        <img src="images/ms2.jpg" height="60" alt="img">
                                         <div class="ms_treanding_box_overlay">
                                             <div class="ms_tranding_box_overlay"></div>
 
                                             <div class="tranding_play_icon">
-                                                <a href="#">
+                                                <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002&index=true">
                                                     <i class="flaticon-play-button"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">
-Until I Met You</a></p>
-                                        <p class="various_artist_text"><a href="#">Henry Moore</a></p>
+                                        <p><a href="#">一路向北</a></p>
+                                        <p class="various_artist_text"><a href="#">周杰伦</a></p>
                                     </div>
 
                                 </div>
                                 <div class="top_list_tract_time">
-                                    <p>4:47</p>
+                                    <p>4:55</p>
                                 </div>
                             </div>
                             <div class="top_songs_list_right">
                                 <div class="top_list_tract_view">
-                                    <p>4.8M+播放次数</p>
+                                    <p>热度:900</p>
                                 </div>
                                 <div class="top_song_list_picks">
                                     <div class="ms_tranding_more_icon">
                                         <i class="flaticon-menu"></i>
                                     </div>
                                     <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                     </ul>
                                 </div>
                             </div>
@@ -2152,174 +2151,262 @@ Until I Met You</a></p>
                             <div class="top_songs_list_left">
                                 <div class="treanding_slider_main_box top_lis_left_content">
                                     <div class="top_songs_list0img">
-                                        <img src="images/tp3.png" alt="img">
+                                        <img src="images/ms3.jpg" height="60" alt="img">
                                         <div class="ms_treanding_box_overlay">
                                             <div class="ms_tranding_box_overlay"></div>
 
                                             <div class="tranding_play_icon">
-                                                <a href="#">
+                                                <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1003&index=true">
                                                     <i class="flaticon-play-button"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">Let me Love You</a></p>
-                                        <p class="various_artist_text"><a href="#">Marc Chagall</a></p>
+                                        <p><a href="#">Believer</a></p>
+                                        <p class="various_artist_text"><a href="#">Lil Wayne</a></p>
                                     </div>
 
                                 </div>
                                 <div class="top_list_tract_time">
-                                    <p>5:01</p>
+                                    <p>3:39</p>
                                 </div>
                             </div>
                             <div class="top_songs_list_right">
                                 <div class="top_list_tract_view">
-                                    <p>8.3M+播放次数</p>
+                                    <p>热度:500</p>
                                 </div>
                                 <div class="top_song_list_picks">
                                     <div class="ms_tranding_more_icon">
                                         <i class="flaticon-menu"></i>
                                     </div>
                                     <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
+                                        <li><a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1003&index=true"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+                                        <%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="top_songs_list ms_cover">
-                            <div class="top_songs_list_left">
-                                <div class="treanding_slider_main_box top_lis_left_content">
-                                    <div class="top_songs_list0img">
-                                        <img src="images/tp4.png" alt="img">
-                                        <div class="ms_treanding_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
 
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">Dark Alley Acotic</a></p>
-                                        <p class="various_artist_text"><a href="#">brian hills</a></p>
-                                    </div>
+                    <%--                        <div class="top_songs_list ms_cover">--%>
+<%--                            <div class="top_songs_list_left">--%>
+<%--                                <div class="treanding_slider_main_box top_lis_left_content">--%>
+<%--                                    <div class="top_songs_list0img">--%>
+<%--                                        <img src="images/tp2.png" alt="img">--%>
+<%--                                        <div class="ms_treanding_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
 
-                                </div>
-                                <div class="top_list_tract_time">
-                                    <p>3:29</p>
-                                </div>
-                            </div>
-                            <div class="top_songs_list_right">
-                                <div class="top_list_tract_view">
-                                    <p>8.1M+播放次数</p>
-                                </div>
-                                <div class="top_song_list_picks">
-                                    <div class="ms_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="top_songs_list ms_cover">
-                            <div class="top_songs_list_left">
-                                <div class="treanding_slider_main_box top_lis_left_content">
-                                    <div class="top_songs_list0img">
-                                        <img src="images/tp5.png" alt="img">
-                                        <div class="ms_treanding_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="release_content_artist top_list_content_artist">--%>
+<%--                                        <p><a href="#">--%>
+<%--Until I Met You</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">Henry Moore</a></p>--%>
+<%--                                    </div>--%>
 
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">Walking Promises</a></p>
-                                        <p class="various_artist_text"><a href="#">Ava Cornish</a></p>
-                                    </div>
+<%--                                </div>--%>
+<%--                                <div class="top_list_tract_time">--%>
+<%--                                    <p>4:47</p>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="top_songs_list_right">--%>
+<%--                                <div class="top_list_tract_view">--%>
+<%--                                    <p>4.8M+播放次数</p>--%>
+<%--                                </div>--%>
+<%--                                <div class="top_song_list_picks">--%>
+<%--                                    <div class="ms_tranding_more_icon">--%>
+<%--                                        <i class="flaticon-menu"></i>--%>
+<%--                                    </div>--%>
+<%--                                    <ul class="tranding_more_option">--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                    </ul>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div class="top_songs_list ms_cover">--%>
+<%--                            <div class="top_songs_list_left">--%>
+<%--                                <div class="treanding_slider_main_box top_lis_left_content">--%>
+<%--                                    <div class="top_songs_list0img">--%>
+<%--                                        <img src="images/tp3.png" alt="img">--%>
+<%--                                        <div class="ms_treanding_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
 
-                                </div>
-                                <div class="top_list_tract_time">
-                                    <p>3:45</p>
-                                </div>
-                            </div>
-                            <div class="top_songs_list_right">
-                                <div class="top_list_tract_view">
-                                    <p>7.2M+播放次数</p>
-                                </div>
-                                <div class="top_song_list_picks">
-                                    <div class="ms_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="top_songs_list ms_cover">
-                            <div class="top_songs_list_left">
-                                <div class="treanding_slider_main_box top_lis_left_content">
-                                    <div class="top_songs_list0img">
-                                        <img src="images/tp6.png" alt="img">
-                                        <div class="ms_treanding_box_overlay">
-                                            <div class="ms_tranding_box_overlay"></div>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="release_content_artist top_list_content_artist">--%>
+<%--                                        <p><a href="#">Let me Love You</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">Marc Chagall</a></p>--%>
+<%--                                    </div>--%>
 
-                                            <div class="tranding_play_icon">
-                                                <a href="#">
-                                                    <i class="flaticon-play-button"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="release_content_artist top_list_content_artist">
-                                        <p><a href="#">Gimme Sourage</a></p>
-                                        <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
-                                    </div>
+<%--                                </div>--%>
+<%--                                <div class="top_list_tract_time">--%>
+<%--                                    <p>5:01</p>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="top_songs_list_right">--%>
+<%--                                <div class="top_list_tract_view">--%>
+<%--                                    <p>8.3M+播放次数</p>--%>
+<%--                                </div>--%>
+<%--                                <div class="top_song_list_picks">--%>
+<%--                                    <div class="ms_tranding_more_icon">--%>
+<%--                                        <i class="flaticon-menu"></i>--%>
+<%--                                    </div>--%>
+<%--                                    <ul class="tranding_more_option">--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                    </ul>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div class="top_songs_list ms_cover">--%>
+<%--                            <div class="top_songs_list_left">--%>
+<%--                                <div class="treanding_slider_main_box top_lis_left_content">--%>
+<%--                                    <div class="top_songs_list0img">--%>
+<%--                                        <img src="images/tp4.png" alt="img">--%>
+<%--                                        <div class="ms_treanding_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
 
-                                </div>
-                                <div class="top_list_tract_time">
-                                    <p>5:29</p>
-                                </div>
-                            </div>
-                            <div class="top_songs_list_right">
-                                <div class="top_list_tract_view">
-                                    <p>6.1M+播放次数</p>
-                                </div>
-                                <div class="top_song_list_picks">
-                                    <div class="ms_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="release_content_artist top_list_content_artist">--%>
+<%--                                        <p><a href="#">Dark Alley Acotic</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">brian hills</a></p>--%>
+<%--                                    </div>--%>
+
+<%--                                </div>--%>
+<%--                                <div class="top_list_tract_time">--%>
+<%--                                    <p>3:29</p>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="top_songs_list_right">--%>
+<%--                                <div class="top_list_tract_view">--%>
+<%--                                    <p>8.1M+播放次数</p>--%>
+<%--                                </div>--%>
+<%--                                <div class="top_song_list_picks">--%>
+<%--                                    <div class="ms_tranding_more_icon">--%>
+<%--                                        <i class="flaticon-menu"></i>--%>
+<%--                                    </div>--%>
+<%--                                    <ul class="tranding_more_option">--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                    </ul>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div class="top_songs_list ms_cover">--%>
+<%--                            <div class="top_songs_list_left">--%>
+<%--                                <div class="treanding_slider_main_box top_lis_left_content">--%>
+<%--                                    <div class="top_songs_list0img">--%>
+<%--                                        <img src="images/tp5.png" alt="img">--%>
+<%--                                        <div class="ms_treanding_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="release_content_artist top_list_content_artist">--%>
+<%--                                        <p><a href="#">Walking Promises</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">Ava Cornish</a></p>--%>
+<%--                                    </div>--%>
+
+<%--                                </div>--%>
+<%--                                <div class="top_list_tract_time">--%>
+<%--                                    <p>3:45</p>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="top_songs_list_right">--%>
+<%--                                <div class="top_list_tract_view">--%>
+<%--                                    <p>7.2M+播放次数</p>--%>
+<%--                                </div>--%>
+<%--                                <div class="top_song_list_picks">--%>
+<%--                                    <div class="ms_tranding_more_icon">--%>
+<%--                                        <i class="flaticon-menu"></i>--%>
+<%--                                    </div>--%>
+<%--                                    <ul class="tranding_more_option">--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                    </ul>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div class="top_songs_list ms_cover">--%>
+<%--                            <div class="top_songs_list_left">--%>
+<%--                                <div class="treanding_slider_main_box top_lis_left_content">--%>
+<%--                                    <div class="top_songs_list0img">--%>
+<%--                                        <img src="images/tp6.png" alt="img">--%>
+<%--                                        <div class="ms_treanding_box_overlay">--%>
+<%--                                            <div class="ms_tranding_box_overlay"></div>--%>
+
+<%--                                            <div class="tranding_play_icon">--%>
+<%--                                                <a href="#">--%>
+<%--                                                    <i class="flaticon-play-button"></i>--%>
+<%--                                                </a>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                    <div class="release_content_artist top_list_content_artist">--%>
+<%--                                        <p><a href="#">Gimme Sourage</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>--%>
+<%--                                    </div>--%>
+
+<%--                                </div>--%>
+<%--                                <div class="top_list_tract_time">--%>
+<%--                                    <p>5:29</p>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="top_songs_list_right">--%>
+<%--                                <div class="top_list_tract_view">--%>
+<%--                                    <p>6.1M+播放次数</p>--%>
+<%--                                </div>--%>
+<%--                                <div class="top_song_list_picks">--%>
+<%--                                    <div class="ms_tranding_more_icon">--%>
+<%--                                        <i class="flaticon-menu"></i>--%>
+<%--                                    </div>--%>
+<%--                                    <ul class="tranding_more_option">--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                    </ul>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
@@ -2333,10 +2420,10 @@ Until I Met You</a></p>
                             <div class="item">
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa1.png" class="img-responsive" alt="img">
+                                    <img src="images/fa1.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Rihanna Fenty </a></p>
-                                        <p class="various_artist_text"><a href="#">21 单曲</a> 6.3M+播放次数</p>
+                                        <p><a href="#">Kim HyunA</a></p>
+                                        <p class="various_artist_text"><a href="#"></a> </p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2361,10 +2448,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa2.png" class="img-responsive" alt="img">
+                                    <img src="images/fa2.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Beyonce Giselle</a></p>
-                                        <p class="various_artist_text"><a href="#">17 单曲</a> 8.4M+播放次数</p>
+                                        <p><a href="#">周杰伦</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2389,10 +2476,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa3.png" class="img-responsive" alt="img">
+                                    <img src="images/fa3.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">taylor swift </a></p>
-                                        <p class="various_artist_text"><a href="#">20 单曲</a> 7.8M+播放次数</p>
+                                        <p><a href="#">Lil Wayne</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2419,10 +2506,10 @@ Until I Met You</a></p>
                             <div class="item">
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa1.png" class="img-responsive" alt="img">
+                                    <img src="images/fa1.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Rihanna Fenty </a></p>
-                                        <p class="various_artist_text"><a href="#">15 单曲</a> 7.3M+播放次数</p>
+                                        <p><a href="#">Kim HyunA</a></p>
+                                        <p class="various_artist_text"><a href="#"></a> </p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2447,10 +2534,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa2.png" class="img-responsive" alt="img">
+                                    <img src="images/fa2.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Beyonce Giselle</a></p>
-                                        <p class="various_artist_text"><a href="#">19 单曲</a> 6.9M+播放次数</p>
+                                        <p><a href="#">周杰伦</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2475,10 +2562,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa3.png" class="img-responsive" alt="img">
+                                    <img src="images/fa3.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">taylor swift </a></p>
-                                        <p class="various_artist_text"><a href="#">22 单曲</a> 6.7M+播放次数</p>
+                                        <p><a href="#">Lil Wayne</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2505,10 +2592,10 @@ Until I Met You</a></p>
                             <div class="item">
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa1.png" class="img-responsive" alt="img">
+                                    <img src="images/fa1.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Rihanna Fenty </a></p>
-                                        <p class="various_artist_text"><a href="#">13 单曲</a> 6.2M+播放次数</p>
+                                        <p><a href="#">Kim HyunA</a></p>
+                                        <p class="various_artist_text"><a href="#"></a> </p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2533,10 +2620,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa2.png" class="img-responsive" alt="img">
+                                    <img src="images/fa2.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">Beyonce Giselle</a></p>
-                                        <p class="various_artist_text"><a href="#">16 单曲</a> 5.3M+播放次数</p>
+                                        <p><a href="#">周杰伦</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2561,10 +2648,10 @@ Until I Met You</a></p>
                                 </div>
 
                                 <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa3.png" class="img-responsive" alt="img">
+                                    <img src="images/fa3.jpg" class="img-responsive" alt="img">
                                     <div class="featured_artist_detail">
-                                        <p><a href="#">taylor swift </a></p>
-                                        <p class="various_artist_text"><a href="#">17 单曲</a> 5.1M+播放次数</p>
+                                        <p><a href="#">Lil Wayne</a></p>
+                                        <p class="various_artist_text"><a href="#"></a></p>
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
@@ -2588,92 +2675,265 @@ Until I Met You</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
 
-                                <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa1.png" class="img-responsive" alt="img">
-                                    <div class="featured_artist_detail">
-                                        <p><a href="#">Rihanna Fenty </a></p>
-                                        <p class="various_artist_text"><a href="#">22 单曲</a> 4.5M+播放次数</p>
-                                        <div class="lang_apply_btn">
-                                            <ul>
-                                                <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
-                                                </li>
-                                            </ul>
+                        <%--                            <div class="item">--%>
 
-                                        </div>
-                                        <div class="top_song_list_picks featured_list_dropdown">
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa1.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Rihanna Fenty </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">15 单曲</a> 7.3M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
 
-                                <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa2.png" class="img-responsive" alt="img">
-                                    <div class="featured_artist_detail">
-                                        <p><a href="#">Beyonce Giselle</a></p>
-                                        <p class="various_artist_text"><a href="#">24 单曲</a> 7.2M+播放次数</p>
-                                        <div class="lang_apply_btn">
-                                            <ul>
-                                                <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
-                                                </li>
-                                            </ul>
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                        </div>
-                                        <div class="top_song_list_picks featured_list_dropdown">
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa2.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Beyonce Giselle</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">19 单曲</a> 6.9M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
 
-                                <div class="featured_artist_list ms_cover">
-                                    <img src="images/fa3.png" class="img-responsive" alt="img">
-                                    <div class="featured_artist_detail">
-                                        <p><a href="#">taylor swift </a></p>
-                                        <p class="various_artist_text"><a href="#">27 单曲</a> 6.1M+播放次数</p>
-                                        <div class="lang_apply_btn">
-                                            <ul>
-                                                <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
-                                                </li>
-                                            </ul>
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
 
-                                        </div>
-                                        <div class="top_song_list_picks featured_list_dropdown">
-                                            <div class="ms_tranding_more_icon">
-                                                <i class="flaticon-menu"></i>
-                                            </div>
-                                            <ul class="tranding_more_option">
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>
-                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa3.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">taylor swift </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">22 单曲</a> 6.7M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa1.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Rihanna Fenty </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">13 单曲</a> 6.2M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa2.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Beyonce Giselle</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">16 单曲</a> 5.3M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa3.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">taylor swift </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">17 单曲</a> 5.1M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                            <div class="item">--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa1.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Rihanna Fenty </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">22 单曲</a> 4.5M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa2.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">Beyonce Giselle</a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">24 单曲</a> 7.2M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+
+<%--                                <div class="featured_artist_list ms_cover">--%>
+<%--                                    <img src="images/fa3.png" class="img-responsive" alt="img">--%>
+<%--                                    <div class="featured_artist_detail">--%>
+<%--                                        <p><a href="#">taylor swift </a></p>--%>
+<%--                                        <p class="various_artist_text"><a href="#">27 单曲</a> 6.1M+播放次数</p>--%>
+<%--                                        <div class="lang_apply_btn">--%>
+<%--                                            <ul>--%>
+<%--                                                <li>--%>
+<%--                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>--%>
+<%--                                                </li>--%>
+<%--                                            </ul>--%>
+
+<%--                                        </div>--%>
+<%--                                        <div class="top_song_list_picks featured_list_dropdown">--%>
+<%--                                            <div class="ms_tranding_more_icon">--%>
+<%--                                                <i class="flaticon-menu"></i>--%>
+<%--                                            </div>--%>
+<%--                                            <ul class="tranding_more_option">--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>添加至歌单</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-star"></i></span>喜欢</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>分享</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-files-and-folders"></i></span>查看歌词</a></li>--%>
+<%--                                                <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>删除</a></li>--%>
+<%--                                            </ul>--%>
+<%--                                        </div>--%>
+<%--                                    </div>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
 
                         </div>
                     </div>
@@ -3551,78 +3811,78 @@ Until I Met You</a></p>
     </div>
     <!-- addvertisment wrapper end -->
     <!-- blog wrapper start -->
-    <div class="blog_wrapper ms_cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="ms_heading_wrapper">
-                        <h1>最新博客
-</h1>
-                    </div>
-                    <div class="relaese_viewall_wrapper">
-                        <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="featured_artist_list blog_img_content ms_cover">
-                        <img src="images/blog1.png" class="img-responsive" alt="img">
-                        <div class="featured_artist_detail blog_content_box">
-                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>
-                            <p><a href="#">Celebrating Winter Holidays
- </a></p>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>
+<%--    <div class="blog_wrapper ms_cover">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 col-md-12 col-sm-12">--%>
+<%--                    <div class="ms_heading_wrapper">--%>
+<%--                        <h1>最新博客--%>
+<%--</h1>--%>
+<%--                    </div>--%>
+<%--                    <div class="relaese_viewall_wrapper">--%>
+<%--                        <a href="#"> 查看全部 <i class="flaticon-right-arrow"></i></a>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-6 col-md-12 col-sm-12">--%>
+<%--                    <div class="featured_artist_list blog_img_content ms_cover">--%>
+<%--                        <img src="images/blog1.png" class="img-responsive" alt="img">--%>
+<%--                        <div class="featured_artist_detail blog_content_box">--%>
+<%--                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>--%>
+<%--                            <p><a href="#">Celebrating Winter Holidays--%>
+<%-- </a></p>--%>
+<%--                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>--%>
 
-                            <a href="#"> 阅读更多</a>
+<%--                            <a href="#"> 阅读更多</a>--%>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="featured_artist_list blog_img_content ms_cover">
-                        <img src="images/blog2.png" class="img-responsive" alt="img">
-                        <div class="featured_artist_detail blog_content_box">
-                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>
-                            <p><a href="#">
-Dance with DJ Nowan
- </a></p>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-6 col-md-12 col-sm-12">--%>
+<%--                    <div class="featured_artist_list blog_img_content ms_cover">--%>
+<%--                        <img src="images/blog2.png" class="img-responsive" alt="img">--%>
+<%--                        <div class="featured_artist_detail blog_content_box">--%>
+<%--                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>--%>
+<%--                            <p><a href="#">--%>
+<%--Dance with DJ Nowan--%>
+<%-- </a></p>--%>
+<%--                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>--%>
 
-                            <a href="#"> 阅读更多</a>
+<%--                            <a href="#"> 阅读更多</a>--%>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="featured_artist_list blog_img_content ms_cover">
-                        <img src="images/blog3.png" class="img-responsive" alt="img">
-                        <div class="featured_artist_detail blog_content_box">
-                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>
-                            <p><a href="#">Celebrating Winter Holidays
- </a></p>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-6 col-md-12 col-sm-12">--%>
+<%--                    <div class="featured_artist_list blog_img_content ms_cover">--%>
+<%--                        <img src="images/blog3.png" class="img-responsive" alt="img">--%>
+<%--                        <div class="featured_artist_detail blog_content_box">--%>
+<%--                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>--%>
+<%--                            <p><a href="#">Celebrating Winter Holidays--%>
+<%-- </a></p>--%>
+<%--                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>--%>
 
-                            <a href="#"> 阅读更多</a>
+<%--                            <a href="#"> 阅读更多</a>--%>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="featured_artist_list blog_img_content ms_cover">
-                        <img src="images/blog4.png" class="img-responsive" alt="img">
-                        <div class="featured_artist_detail blog_content_box">
-                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>
-                            <p><a href="#">electus dolorum facere illo 
- </a></p>
-                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="col-lg-6 col-md-12 col-sm-12">--%>
+<%--                    <div class="featured_artist_list blog_img_content ms_cover">--%>
+<%--                        <img src="images/blog4.png" class="img-responsive" alt="img">--%>
+<%--                        <div class="featured_artist_detail blog_content_box">--%>
+<%--                            <span> <i class="flaticon-calendar"></i>3 May, 2019</span>--%>
+<%--                            <p><a href="#">electus dolorum facere illo --%>
+<%-- </a></p>--%>
+<%--                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do this dolor sit..</p>--%>
 
-                            <a href="#"> 阅读更多</a>
+<%--                            <a href="#"> 阅读更多</a>--%>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
     <!-- blog wrapper end -->
     <div class="add_banner_wrapper ms_cover">
         <div class="container">

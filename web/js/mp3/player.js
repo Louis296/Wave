@@ -2,7 +2,8 @@ var adonisPlaylist, currentPlaylistId, adonisPlayer = {}, adonisAllPlaylists = [
     adonisPlayerID = "adonis_jplayer_main", adonisPlayerContainer = "adonis_jp_container";
 jQuery(document).ready(function (a) {
     $.get(
-        'http://localhost/Wave_war_exploded/song/defaultsonglist',
+        'http://121.199.40.212/wave/song/defaultsonglist',
+        // 'http://localhost/Wave_war_exploded/song/defaultsonglist',
         function(data,status) {
             // alert(data);
             // console.log(data);

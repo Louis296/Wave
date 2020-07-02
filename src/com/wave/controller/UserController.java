@@ -4,6 +4,7 @@ package com.wave.controller;
 import com.wave.po.SongList;
 import com.wave.po.User;
 
+import com.wave.service.SongListService;
 import com.wave.service.UserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -29,6 +30,9 @@ public class UserController {
     private static final Log logger= LogFactory.getLog(UserController.class);
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private SongListService songListService;
 
     @RequestMapping("/register")
     @ResponseBody
@@ -59,8 +63,9 @@ public class UserController {
         songList.setListName("default");
         songList.setSongID("");
         songList.setListType("流行");
-
-//        songList.setUserID();
+        Integer uid=userService.selectByEmail(user.getUserEmail()).getUserID();
+        songList.setUserID(uid);
+        songListService.addSongList(songList);
         return "success";
     }
 
