@@ -15,4 +15,5 @@ public interface UserMapper {
     public User selectByID(Integer id);
     public List<User> selectAllUsers();
     public void deleteUserById(Integer id);
+    public void updataUserInfo(User user);
 }

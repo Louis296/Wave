@@ -2,8 +2,9 @@ var adonisPlaylist, currentPlaylistId, adonisPlayer = {}, adonisAllPlaylists = [
     adonisPlayerID = "adonis_jplayer_main", adonisPlayerContainer = "adonis_jp_container";
 jQuery(document).ready(function (a) {
     $.get(
-        'http://121.199.40.212/wave/song/defaultsonglist',
-        // 'http://localhost/Wave_war_exploded/song/defaultsonglist',
+        //部署到阿里云时请修改这里
+        // 'http://121.199.40.212/wave/song/defaultsonglist',
+        'http://localhost/Wave_war_exploded/song/defaultsonglist',
         function(data,status) {
             // alert(data);
             // console.log(data);

@@ -87,6 +87,7 @@ public class UserController {
         return "false";
     }
 
+
     @RequestMapping("/logout")
     public String logout(HttpSession session){
         session.removeAttribute("user");

@@ -2513,7 +2513,7 @@ Author:Webstrot
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
+                                                    <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1001&index=true"> <i class="flaticon-play-button"></i>播放</a>
                                                 </li>
                                             </ul>
 
@@ -2541,7 +2541,7 @@ Author:Webstrot
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
+                                                    <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1002&index=true"> <i class="flaticon-play-button"></i>播放</a>
                                                 </li>
                                             </ul>
 
@@ -2569,7 +2569,7 @@ Author:Webstrot
                                         <div class="lang_apply_btn">
                                             <ul>
                                                 <li>
-                                                    <a href="#"> <i class="flaticon-play-button"></i>播放</a>
+                                                    <a href="${pageContext.request.contextPath}/song/addtosonglist?songid=1003&index=true"> <i class="flaticon-play-button"></i>播放</a>
                                                 </li>
                                             </ul>
 

@@ -1,6 +1,8 @@
 <%@ page import="com.wave.po.Blog" %>
 <%@ page import="java.util.List" %>
 <%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+
 <!--
 Template Name: Tunein
 Version: 1.0.0
@@ -358,11 +360,11 @@ Author:Webstrot
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="indx_title_left_wrapper ms_cover">
-                        <h2>音乐博客 I</h2>
+                        <h2>音乐博客</h2>
 
                         <ul>
                             <li><a href="#">主页</a> &nbsp;&nbsp;&nbsp;/</li>
-                            <li>音乐博客 I</li>
+                            <li>音乐博客</li>
                         </ul>
 
                     </div>

@@ -33,4 +33,7 @@
     <delete id="deleteUserById" parameterType="Integer">
         delete from users where user_id=#{id}
     </delete>
+    <update id="updataUserInfo" parameterType="com.wave.po.User">
+        update users set user_name=#{userName},user_password=#{userPassword},user_sex=#{userSex},user_age=#{userAge},user_email=#{userEmail},user_address=#{userAddress} where user_id=#{userID}
+    </update>
 </mapper>

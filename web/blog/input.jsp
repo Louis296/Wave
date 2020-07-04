@@ -39,7 +39,7 @@
 </style>
 <body>
 <center>
-    <div style="background-image:url(../backstage/images/2.png) ;height:250px;">
+    <div style="background-image:url(../backstage/images/2.jpg) ;height:250px;">
         <br><br>
         <h2 style="font-size: 60px;
 		color: #FFFFFF;
@@ -59,7 +59,7 @@
 			font-family:'宋体';
 			">返回</a>
     </div>
-    <div style="background-image:url(../backstage/images/1.png);background-size: 100% 100%;">
+    <div style="background-image:url(../backstage/images/1.jpg);background-size: 100% 100%;">
         <!--
             作者：offline
             时间：2020-06-29

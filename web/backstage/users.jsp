@@ -2,7 +2,8 @@
 <%@ page import="com.wave.po.User" %>
 <%@ page import="java.util.Iterator" %>
 <%@ page import="org.springframework.ui.Model" %>
-<%@ page import="java.util.ArrayList" %><%--
+<%@ page import="java.util.ArrayList" %>
+<%--
   Created by IntelliJ IDEA.
   User: Luozhihua
   Date: 2020/6/29
@@ -87,7 +88,67 @@
 				font-size: 16px;
 				margin-top: 20px;
 			}
-		</style>
+            /*背景层*/
+            #popLayer {
+                display: none;
+                background-color: #B3B3B3;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 10;
+                -moz-opacity: 0.8;
+                opacity:.80;
+                filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+            }
+
+            /*弹出层*/
+            #popBox {
+                display: none;
+                background-color: #FFFFFF;
+                z-index: 11;
+                width: 400px;
+                height: 200px;
+                position:fixed;
+                top:0;
+                right:0;
+                left:0;
+                bottom:0;
+                margin:auto;
+            }
+
+            #popBox .close{
+                text-align: right;
+                margin-right: 5px;
+                background-color: #F8F8F8;
+            }
+
+            /*关闭按钮*/
+            #popBox .close a {
+                text-decoration: none;
+                color: #2D2C3B;
+            }
+
+    </style>
+    <script type="text/javascript">
+        /*点击弹出按钮*/
+        function popBox() {
+            var popBox = document.getElementById("popBox");
+            var popLayer = document.getElementById("popLayer");
+            popBox.style.display = "block";
+            popLayer.style.display = "block";
+        };
+
+        /*点击关闭按钮*/
+        function closeBox() {
+            var popBox = document.getElementById("popBox");
+            var popLayer = document.getElementById("popLayer");
+            popBox.style.display = "none";
+            popLayer.style.display = "none";
+        }
+        //打开上传歌曲用的弹窗
+    </script>
     <!--[if IE]><link rel="stylesheet" href="css/ie.css" media="all" /><![endif]-->
 </head>
 <body>
@@ -103,7 +164,7 @@
         <div class="buttons">
             <button class="ico-font">&#9206;</button>
             <span class="button dropdown">
-			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告<span class="pip">4</span></a>
+			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告</a>
 			 <div id="light" class="white_content" style="top: 200px;width: 400px;height:400px ;">
 			<div id="font_login"><p style="color: mediumvioletred;">发布公告</p></div>
                  <!-- 发布通知用的弹窗 -->
@@ -123,66 +184,66 @@
 				 </script>
 		</div>
 		<div id="fade" class="black_overlay"></div>
-			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>You have a new task</h1>
-						<h2>Report web statistics week by week.</h2>
-					</hgroup>
-					<p><span>14:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>New comment</h1>
-						<h2>Comment on <em>About page</em> by Darren.</h2>
-					</hgroup>
-					<p><span>11:04</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>Broken link</h1>
-						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>
-					</hgroup>
-					<p><span>10:46</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>User report</h1>
-						<h2><em>Lee Grant</em> has been promoted to admin.</h2>
-					</hgroup>
-					<p><span>09:57</span></p>
-				</li>
-			</ul>
+<%--			<ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>You have a new task</h1>--%>
+<%--						<h2>Report web statistics week by week.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>14:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>New comment</h1>--%>
+<%--						<h2>Comment on <em>About page</em> by Darren.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:04</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Broken link</h1>--%>
+<%--						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>10:46</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>User report</h1>--%>
+<%--						<h2><em>Lee Grant</em> has been promoted to admin.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>09:57</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 		</span>
-            <span class="button dropdown">
-			<a href="#">收件箱<span class="pip">6</span></a>
-			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-			</ul>
-		</span>
+<%--            <span class="button dropdown">--%>
+<%--			<a href="#">收件箱<span class="pip">6</span></a>--%>
+<%--			<ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
+<%--		</span>--%>
             <span class="button">直播</span>
             <span class="button">帮助</span>
             <span class="button blue"><a href="index.jsp">注销</a></span>
@@ -201,10 +262,10 @@
         </li>-->
         <li>
             <a href="files.jsp"><span class="icon">&#127748;</span>媒体<span class="pip">7</span></a>
-            <ul class="submenu">
-                <li><a href="files-upload.jsp">Upload file</a></li>
-                <li><a href="files.jsp">View files</a></li>
-            </ul>
+<%--            <ul class="submenu">--%>
+<%--                <li><a href="files-upload.jsp">Upload file</a></li>--%>
+<%--                <li><a href="files.jsp">View files</a></li>--%>
+<%--            </ul>--%>
         </li>
         <!--<li>
             <a href="blog-timeline.html"><span class="icon">&#59160;</span> Blog <span class="pip">12</span></a>
@@ -215,7 +276,7 @@
             </ul>
         </li>-->
         <li><a href="statistics.jsp"><span class="icon">&#128202;</span>数据</a></li>
-        <li class="section"><a href="users.jspl"><span class="icon">&#128101;</span>用户<span class="pip">3</span></a></li>
+        <li class="section"><a href="users.jsp"><span class="icon">&#128101;</span>用户<span class="pip">3</span></a></li>
     </ul>
 </nav>
 
@@ -244,11 +305,11 @@
             <aside>
 				<span>
 					<a href="#">&#9881;</a>
-					<ul class="settings-dd">
-						<li><label>Option a</label><input type="checkbox" /></li>
-						<li><label>Option b</label><input type="checkbox" checked="checked" /></li>
-						<li><label>Option c</label><input type="checkbox" /></li>
-					</ul>
+<%--					<ul class="settings-dd">--%>
+<%--						<li><label>Option a</label><input type="checkbox" /></li>--%>
+<%--						<li><label>Option b</label><input type="checkbox" checked="checked" /></li>--%>
+<%--						<li><label>Option c</label><input type="checkbox" /></li>--%>
+<%--					</ul>--%>
 				</span>
             </aside>
         </header>
@@ -261,6 +322,7 @@
                     <th>邮箱</th>
                     <th>密码</th>
                     <th>注册日期</th>
+                    <th>修改/更多</th>
                     <th>注销</th>
                 </tr>
                 </thead>
@@ -274,8 +336,29 @@
                     <td><%=user.getUserEmail()%></td>
                     <td><%=user.getUserPassword()%></td>
                     <td><%=user.getUserDate()%></td>
+                    <td><a href="#" name="popBox" onclick="popBox()">修改/更多</a></td>
                     <td><a href="${pageContext.request.contextPath }/backstage/deleteuser?userid=<%=user.getUserID()%>">注销用户</a> </td>
                 </tr>
+                <div id="popLayer"></div>
+                <div id="popBox" style="background-color: lightblue;height: 700px;">
+                    <div class="close">
+                        <a href="javascript:void(0)" onclick="closeBox()">关闭</a>
+                    </div>
+                    <div class="content" style="color: #000000;width: 200px;">
+                        <form action="${pageContext.request.contextPath }/backstage/updateuserinfo" method="post">
+                            <input type="hidden" name="userID" value="<%=user.getUserID()%>">
+                            <p>用户名：<br><br><input type="text" name="userName" value="<%=user.getUserName()%>" style="width: 100%;"></p>
+                            <p>邮箱：<br><br><input type="text" name="userEmail" value="<%=user.getUserEmail()%>" style="width: 100%;"></p>
+                            <p>密码：<br><br><input type="text" name="userPassword" value="<%=user.getUserPassword()%>" style="width: 100%;"></p>
+                            <p>性别：<br><br><input type="text" name="userSex" value="<%=user.getUserSex()%>" style="width: 100%;"></p>
+                            <p>年龄：<br><br><input type="text"  name="userAge" value="<%=user.getUserAge()%>" style="width: 100%;" /></p>
+                            <p>所在地：<br><br><input type="text" name="userAddress" value="<%=user.getUserAddress()%>" style="width: 100%;"></p>
+                            <input type="submit" value="提交">
+
+                            <input type="reset" value="重置">
+                        </form>
+                    </div>
+                </div>
                 <%
                     }
                 %>

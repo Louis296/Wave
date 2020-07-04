@@ -84,8 +84,67 @@
             font-size: 16px;
             margin-top: 20px;
         }
-    </style>
+        /*背景层*/
+        #popLayer {
+            display: none;
+            background-color: #B3B3B3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+        }
 
+        /*弹出层*/
+        #popBox {
+            display: none;
+            background-color: #FFFFFF;
+            z-index: 11;
+            width: 400px;
+            height: 200px;
+            position:fixed;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+            margin:auto;
+        }
+
+        #popBox .close{
+            text-align: right;
+            margin-right: 5px;
+            background-color: #F8F8F8;
+        }
+
+        /*关闭按钮*/
+        #popBox .close a {
+            text-decoration: none;
+            color: #2D2C3B;
+        }
+
+    </style>
+    <script type="text/javascript">
+        /*点击弹出按钮*/
+        function popBox() {
+            var popBox = document.getElementById("popBox");
+            var popLayer = document.getElementById("popLayer");
+            popBox.style.display = "block";
+            popLayer.style.display = "block";
+        };
+
+        /*点击关闭按钮*/
+        function closeBox() {
+            var popBox = document.getElementById("popBox");
+            var popLayer = document.getElementById("popLayer");
+            popBox.style.display = "none";
+            popLayer.style.display = "none";
+        }
+        //打开上传歌曲用的弹窗
+    </script>
 </head>
 <body>
 <div class="testing">
@@ -100,7 +159,7 @@
         <div class="buttons">
             <button class="ico-font">&#9206;</button>
             <span class="button dropdown">
-            <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告<span class="pip">4</span></a>
+            <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告</a>
 			 <div id="light" class="white_content" style="top: 200px;width: 400px;height:400px ;">
 			<div id="font_login"><p style="color: mediumvioletred;">发布公告</p></div>
                  <!-- 发布通知用的弹窗 -->
@@ -119,65 +178,66 @@
 
 				 </script>
 		</div>
-		<div id="fade" class="black_overlay"></div>			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>You have a new task</h1>
-						<h2>Report web statistics week by week.</h2>
-					</hgroup>
-					<p><span>14:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>New comment</h1>
-						<h2>Comment on <em>About page</em> by Darren.</h2>
-					</hgroup>
-					<p><span>11:04</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>Broken link</h1>
-						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>
-					</hgroup>
-					<p><span>10:46</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>User report</h1>
-						<h2><em>Lee Grant</em> has been promoted to admin.</h2>
-					</hgroup>
-					<p><span>09:57</span></p>
-				</li>
-			</ul>
+		<div id="fade" class="black_overlay"></div>
+<%--                <ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>You have a new task</h1>--%>
+<%--						<h2>Report web statistics week by week.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>14:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>New comment</h1>--%>
+<%--						<h2>Comment on <em>About page</em> by Darren.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:04</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Broken link</h1>--%>
+<%--						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>10:46</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>User report</h1>--%>
+<%--						<h2><em>Lee Grant</em> has been promoted to admin.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>09:57</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 		</span>
-            <span class="button dropdown">
-			<a href="#">收件箱<span class="pip">6</span></a>
-			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-			</ul>
+<%--            <span class="button dropdown">--%>
+<%--			<a href="#">收件箱<span class="pip">6</span></a>--%>
+<%--			<ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 		</span>
             <span class="button">直播</span>
             <span class="button">帮助</span>
@@ -231,12 +291,32 @@
             </hgroup>
             <aside>
 				<span>
-					<a href="${pageContext.request.contextPath}/backstage/musicupload.jsp">&#9881;</a>
-					<ul class="settings-dd">
-						<li><label>Option a</label><input type="checkbox" /></li>
-						<li><label>Option b</label><input type="checkbox" checked="checked" /></li>
-						<li><label>Option c</label><input type="checkbox" /></li>
-					</ul>
+<a href="#" name="popBox" onclick="popBox()">&uarr;</a>
+<div id="popLayer"></div>
+<div id="popBox" style="background-color: lightblue;height: 480px;">
+    <div class="close">
+        <a href="javascript:void(0)" onclick="closeBox()">关闭</a>
+    </div>
+    <div class="content" style="color: #000000;width: 200px;">
+    	<form action="${pageContext.request.contextPath }/backstage/uploadfile" method="post" enctype="multipart/form-data">
+       <p> 文件类型：<br><br><br><input type="text" name="songType" style="width: 100%;"></p>
+        <p>歌名：<br><br><br><input type="text" name="songName" style="width: 100%;"></p>
+        <p>歌手：<br><br><br><input type="text" name="songSinger" style="width: 100%;"></p>
+       <p> 专辑：<br><br><br><input type="text" name="songAlbum" style="width: 100%;"></p>
+        <p>专辑封面：<br><br><br><input type="file" value="选择文件" name="iconFile" style="width: 100%;" /></p>
+        <p>歌曲大小：<br><br><br><input type="text" name="songSize" style="width: 100%;"></p>
+     <p>上传文件：<br><br><br><input type="file" value="选择文件" name="songFile" style="width: 100%;" /></p>
+     <br><br>
+        <input type="submit" value="提交">
+
+        <input type="reset" value="重置">
+    </form>
+    </div>
+</div><%--					<ul class="settings-dd">--%>
+<%--						<li><label>Option a</label><input type="checkbox" /></li>--%>
+<%--						<li><label>Option b</label><input type="checkbox" checked="checked" /></li>--%>
+<%--						<li><label>Option c</label><input type="checkbox" /></li>--%>
+<%--					</ul>--%>
 				</span>
             </aside>
 

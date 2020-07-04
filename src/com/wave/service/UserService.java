@@ -8,4 +8,5 @@ public interface UserService {
     public User selectByEmail(String email);
     public User selectByID(Integer id);
     public void deleteUserById(Integer id);
+    public void updateUserInfo(User user);
 }

@@ -112,10 +112,15 @@ public class BackstageController {
     }
 
     @RequestMapping("/setbacknotice")
-
     public String setBackNotice(HttpSession session,HttpServletRequest request){
         String notice=request.getParameter("notice");
         session.setAttribute("backnotice",notice);
         return "redirect:/backstage/dashboard.jsp";
+    }
+
+    @RequestMapping("/updateuserinfo")
+    public String updateUserInfo(User user){
+        userService.updateUserInfo(user);
+        return "redirect:/backstage/users.jsp";
     }
 }

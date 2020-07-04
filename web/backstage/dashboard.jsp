@@ -105,7 +105,7 @@
         <div class="buttons">
             <button class="ico-font">&#9206;</button>
             <span class="button dropdown">
-			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告<span class="pip">4</span></a>
+			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">发布公告</a>
 			 <div id="light" class="white_content" style="top: 200px;width: 400px;height:400px ;">
 			<div id="font_login"><p style="color: mediumvioletred;">发布公告</p></div>
 			<!-- 发布通知用的弹窗 -->
@@ -127,65 +127,65 @@
 		<div id="fade" class="black_overlay"></div>
 		
 		
-			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>您有新的任务</h1>
-						<h2>按周次报告网站数据</h2>
-					</hgroup>
-					<p><span>14:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>新的评论</h1>
-						<h2>Comment on <em>About page</em> by Darren.</h2>
-					</hgroup>
-					<p><span>11:04</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>Broken link</h1>
-						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>
-					</hgroup>
-					<p><span>10:46</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1>User report</h1>
-						<h2><em>Lee Grant</em> has been promoted to admin.</h2>
-					</hgroup>
-					<p><span>09:57</span></p>
-				</li>
-			</ul>
+<%--			<ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>您有新的任务</h1>--%>
+<%--						<h2>按周次报告网站数据</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>14:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>新的评论</h1>--%>
+<%--						<h2>Comment on <em>About page</em> by Darren.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:04</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Broken link</h1>--%>
+<%--						<h2>We've spotted a broken link on the <em>Blog page</em>.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>10:46</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>User report</h1>--%>
+<%--						<h2><em>Lee Grant</em> has been promoted to admin.</h2>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>09:57</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 		</span>
-            <span class="button dropdown">
-			<a href="#">收件箱<span class="pip">6</span></a>
-			<ul class="notice">
-				<li>
-					<hgroup>
-						<h1>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-				<li>
-					<hgroup>
-						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>
-						<h2>John Doe</h2>
-						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>
-					</hgroup>
-					<p><span>11:24</span></p>
-				</li>
-			</ul>
+<%--            <span class="button dropdown">--%>
+<%--			<a href="#">收件箱<span class="pip">6</span></a>--%>
+<%--			<ul class="notice">--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--				<li>--%>
+<%--					<hgroup>--%>
+<%--						<h1><span class="icon">&#59154;</span>Hi, I need a favour</h1>--%>
+<%--						<h2>John Doe</h2>--%>
+<%--						<h3>Lorem ipsum dolor sit amet, consectetuer sed aidping putamus delo de sit felume...</h3>--%>
+<%--					</hgroup>--%>
+<%--					<p><span>11:24</span></p>--%>
+<%--				</li>--%>
+<%--			</ul>--%>
 		</span>
             <span class="button">直播</span>
             <span class="button">帮助</span>
@@ -198,12 +198,12 @@
         <li class="section"><a href="dashboard.jsp"><span class="icon">&#128711;</span>信息板</a></li>
         <li>
             <a href="files.jsp"><span class="icon">&#127748;</span>媒体<span class="pip">7</span></a>
-            <ul class="submenu">
-                <li><a href="files-upload.jsp">上传文件</a></li>
-                <li><a href="files.jsp">查看文件</a></li>
-            </ul>
+<%--            <ul class="submenu">--%>
+<%--                <li><a href="files-upload.jsp">上传文件</a></li>--%>
+<%--                <li><a href="files.jsp">查看文件</a></li>--%>
+<%--            </ul>--%>
         </li>
-        <li><a href="statistics.jsp"><span class="icon">&#128202;</span>数据统计</a></li>
+        <li><a href="statistics.jsp"><span class="icon">&#128202;</span>数据</a></li>
         <li><a href="users.jsp"><span class="icon">&#128101;</span>用户<span class="pip">3</span></a></li>
     </ul>
 </nav>
@@ -230,11 +230,11 @@
                 <aside>
 					<span>
 						<a href="#">&#9881;</a>
-						<ul class="settings-dd">
-							<li><label>Option a</label><input type="checkbox" /></li>
-							<li><label>Option b</label><input type="checkbox" checked="checked" /></li>
-							<li><label>Option c</label><input type="checkbox" /></li>
-						</ul>
+<%--						<ul class="settings-dd">--%>
+<%--							<li><label>Option a</label><input type="checkbox" /></li>--%>
+<%--							<li><label>Option b</label><input type="checkbox" checked="checked" /></li>--%>
+<%--							<li><label>Option c</label><input type="checkbox" /></li>--%>
+<%--						</ul>--%>
 					</span>
                 </aside>
             </header>
@@ -272,8 +272,8 @@
 <script src="js/flot.js"></script>
 <script src="js/flot.resize.js"></script>
 <script src="js/flot-time.js"></script>
-<script src="js/flot-pie.js"></script>
-<script src="js/flot-graphs.js"></script>
+<%--<script src="js/flot-pie.js"></script>--%>
+<%--<script src="js/flot-graphs.js"></script>--%>
 <script src="js/cycle.js"></script>
 <script src="js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript">
